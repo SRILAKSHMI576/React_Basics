@@ -1,9 +1,14 @@
 import React from "react";
 import Book from "../Book/Book";
+import "./style.css";
 
 function Books() {
   return (
-    <div>
+    <div className="books">
+      <Book />
+      <Book />
+      <Book />
+      <Book />
       <Book />
     </div>
   );
