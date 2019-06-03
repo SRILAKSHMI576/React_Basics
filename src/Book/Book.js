@@ -1,7 +1,12 @@
 import React from "react";
 
 function Book() {
-  return <div>Book</div>;
+  return (
+    <div>
+      Name: Robin sharma; <br />
+      Author: Robin;
+    </div>
+  );
 }
 
 export default Book;
