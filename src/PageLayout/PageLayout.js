@@ -11,9 +11,14 @@ function Page() {
         <a href="#home">HOME</a>
         <a href="#news">NEWS</a>
         <a href="notifications">NOTIFICATIONS</a>
-        <div className="left">
-          <a href="login">LOGIN</a>
+        <div className="menu-log">
+          <a href="#login">LOGIN</a>
         </div>
+      </div>
+      <div className="body_sec">
+        <section>
+          <h3>content section</h3>
+        </section>
       </div>
     </div>
   );
