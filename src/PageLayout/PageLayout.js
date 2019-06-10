@@ -11,6 +11,9 @@ function Page() {
         <a href="#home">HOME</a>
         <a href="#news">NEWS</a>
         <a href="notifications">NOTIFICATIONS</a>
+        <div className="left">
+          <a href="login">LOGIN</a>
+        </div>
       </div>
     </div>
   );
