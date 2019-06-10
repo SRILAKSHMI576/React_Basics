@@ -8,9 +8,6 @@ td {
   text-align: center;
   border: 1px solid lightgrey;
 }
-tr:nth-child(even) {
-  background-color: white;
-}
 .op {
   border-collapse: collapse;
   font-size: 25px;
@@ -20,4 +17,7 @@ tr:nth-child(even) {
   border: 1px solid lightgrey;
   background-color: tomato;
   width: 25px;
+}
+td:hover {
+  background-color: lightgrey;
 }
