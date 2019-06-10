@@ -1,0 +1,24 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 25px;
+  padding: 15px;
+  margin: 60px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+.op {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 25px;
+  padding: 15px;
+  margin: 60px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  background-color: tomato;
+}
