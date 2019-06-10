@@ -1,7 +1,6 @@
 table,
 th,
 td {
-  border: 1px solid white;
   border-collapse: collapse;
   font-size: 25px;
   padding: 15px;
@@ -13,7 +12,6 @@ tr:nth-child(even) {
   background-color: white;
 }
 .op {
-  border: 1px solid white;
   border-collapse: collapse;
   font-size: 25px;
   padding: 15px;
