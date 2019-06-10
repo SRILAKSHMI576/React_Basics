@@ -4,6 +4,7 @@ import "./style.css";
 function Operators() {
   return (
     <div className="Cal">
+      <table className="table" />
       <table>
         <tr>
           <td>AC</td>
