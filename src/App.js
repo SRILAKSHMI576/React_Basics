@@ -1,10 +1,10 @@
 import React from "react";
-import Library from "./Library/Library";
+import Page from "./PageLayout/PageLayout";
 
 function App() {
   return (
     <div>
-      <Library />
+      <Page />
     </div>
   );
 }
