@@ -21,4 +21,5 @@ tr:nth-child(even) {
   text-align: center;
   border: 1px solid lightgrey;
   background-color: tomato;
+  width: 25px;
 }
