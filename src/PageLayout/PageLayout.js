@@ -15,7 +15,11 @@ function Page() {
           <a href="#login">LOGIN</a>
         </div>
       </div>
-      <div className="body_sec" />
+      <div className="body_sec">
+        <section>
+          <h3>content section</h3>
+        </section>
+      </div>
     </div>
   );
 }
