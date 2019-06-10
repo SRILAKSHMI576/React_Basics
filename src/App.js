@@ -1,10 +1,10 @@
 import React from "react";
-import Page from "./PageLayout/PageLayout";
+import Calculator from "./Calculator/Calculator";
 
 function App() {
   return (
     <div>
-      <Page />
+      <Calculator />
     </div>
   );
 }
