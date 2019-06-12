@@ -1,23 +1,10 @@
-table,
-th,
-td {
-  border-collapse: collapse;
-  font-size: 25px;
-  padding: 15px;
-  margin: 60px;
-  text-align: center;
-  border: 1px solid lightgrey;
+.operators {
+  width: 150px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
-.op {
-  border-collapse: collapse;
-  font-size: 25px;
-  padding: 15px;
-  margin: 60px;
-  text-align: center;
-  border: 1px solid lightgrey;
-  background-color: tomato;
-  width: 25px;
-}
-td:hover {
-  background-color: lightgrey;
+.operator {
+  width: 50px;
+  height: 50px;
 }
