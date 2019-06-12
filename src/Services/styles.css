@@ -1,0 +1,66 @@
+.item1 {
+  background: yellow;
+  height: 20px;
+  font-weight: bold;
+  width: 180px;
+  padding: 9px;
+}
+.item2 {
+  background: yellow;
+  height: 20px;
+  font-weight: bold;
+  width: 180px;
+  padding: 9px;
+}
+.item3 {
+  background: yellow;
+  height: 20px;
+  font-weight: bold;
+  width: 180px;
+  padding: 9px;
+}
+.item4 {
+  background: yellow;
+  height: 20px;
+  font-weight: bold;
+  width: 180px;
+  padding: 9px;
+}
+.name1 {
+  border: 3px solid black;
+  padding: 5px;
+  height: 330px;
+}
+.name4 {
+  border: 3px solid black;
+  padding: 5px;
+  height: 330px;
+}
+.name2 {
+  border: 3px solid black;
+  padding: 5px;
+  height: 330px;
+}
+.name3 {
+  border: 3px solid black;
+  padding: 5px;
+  height: 330px;
+}
+#picture {
+  width: 200px;
+  height: 100px;
+  margin: 0px;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  background: pink;
+  margin: auto;
+}
+button {
+  background-color: yellow;
+  border: 2px solid black;
+  margin: 20px;
+  float: right;
+}
