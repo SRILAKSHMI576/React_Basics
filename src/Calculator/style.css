@@ -1,0 +1,11 @@
+.calculator {
+  background-color: aqua;
+  width: 200px;
+}
+.container {
+  display: flex;
+}
+.result {
+  height: 90px;
+  background-color: chocolate;
+}
