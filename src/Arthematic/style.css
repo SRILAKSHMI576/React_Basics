@@ -1,0 +1,12 @@
+.arthimatic-operators {
+  background-color: tomato;
+  width: 50px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.arthimatic-operator {
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+}
