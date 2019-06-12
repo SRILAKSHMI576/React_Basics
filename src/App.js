@@ -1,10 +1,10 @@
 import React from "react";
-import Calculator from "./Calculator/Calculator";
+import Lubricants from "./Lubricants/Lubricants";
 
 function App() {
   return (
     <div>
-      <Calculator />
+      <Lubricants />
     </div>
   );
 }
