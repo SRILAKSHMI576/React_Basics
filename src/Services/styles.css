@@ -1,60 +1,65 @@
 .item1 {
   background: yellow;
-  height: 20px;
+  height: 25px;
   font-weight: bold;
-  width: 180px;
+  width: 206px;
   padding: 9px;
 }
 .item2 {
   background: yellow;
-  height: 20px;
+  height: 25px;
   font-weight: bold;
-  width: 180px;
+  width: 206px;
   padding: 9px;
 }
 .item3 {
   background: yellow;
-  height: 20px;
+  height: 25px;
   font-weight: bold;
-  width: 180px;
+  width: 206x;
   padding: 9px;
 }
 .item4 {
   background: yellow;
-  height: 20px;
+  height: 25px;
   font-weight: bold;
-  width: 180px;
+  width: 206px;
   padding: 9px;
 }
 .name1 {
-  border: 3px solid black;
+  border: 2px solid black;
   padding: 5px;
-  height: 330px;
+  height: 233px;
+  width: 207px;
 }
 .name4 {
-  border: 3px solid black;
+  border: 2px solid black;
   padding: 5px;
-  height: 330px;
+  height: 233px;
+  width: 207px;
 }
 .name2 {
-  border: 3px solid black;
+  border: 2px solid black;
   padding: 5px;
-  height: 330px;
+  height: 233px;
+  width: 207px;
 }
 .name3 {
-  border: 3px solid black;
+  border: 2px solid black;
   padding: 5px;
-  height: 330px;
+  height: 233px;
+  width: 207px;
 }
 #picture {
-  width: 200px;
-  height: 100px;
+  width: 208px;
+  height: 93px;
   margin: 0px;
 }
 .services {
   display: flex;
   justify-content: space-evenly;
-  width: 1200px;
+  width: 939px;
+  height: 248px;
   background: pink;
   margin: auto;
 }
@@ -63,4 +68,9 @@ button {
   border: 2px solid black;
   margin: 20px;
   float: right;
+}
+p {
+  width: 206px;
+  height: 68px;
+  font-size: 10px;
 }
