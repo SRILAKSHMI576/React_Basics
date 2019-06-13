@@ -1,18 +1,4 @@
-.lubricants {
-  background-color: aqua;
-  width: 100%;
-  height: 150px;
-}
-.lubri {
-  text-align: left;
-  font-size: 40px;
-  padding: 20px;
-  margin: 100px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.call {
-  float: right;
-  font-size: 25px;
-  padding: 10px;
-  margin: 30px;
+.project {
+  width: 941px;
+  height: 631px;
 }
