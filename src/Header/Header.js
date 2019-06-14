@@ -3,9 +3,9 @@ import "./style.css";
 
 function Header() {
   return (
-    <div className="lubricants">
-      <b className="lubri">LUBRICANTS</b>
-      <b className="call">CALL TOLL FREE 1-800-772-5823</b>
+    <div className="header">
+      <h1 className="title">LUBRICANTS</h1>
+      <h2 className="call">CALL TOLL FREE 1-800-772-5823</h2>
     </div>
   );
 }
