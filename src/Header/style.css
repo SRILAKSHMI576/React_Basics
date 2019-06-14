@@ -8,11 +8,12 @@
 .title {
   font-size: 25px;
   margin-left: 40px;
-
+  width: 300px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .call {
   font-size: 18px;
   margin-top: 25px;
   margin-right: 20px;
+  width: 300px;
 }
