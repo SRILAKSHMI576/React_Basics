@@ -38,24 +38,31 @@
   padding: 5px;
   height: 233px;
   width: 200px;
+  margin-left: -5px;
+  margin-right: 9px;
 }
 .name4 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
   width: 200px;
+  margin-left: -5px;
+  margin-right: 9px;
 }
 .name2 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
   width: 200px;
+  margin-left: -5px;
 }
 .name3 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
   width: 200px;
+  margin-left: -5px;
+  margin-right: 9px;
 }
 #picture {
   width: 210px;
