@@ -1,9 +1,10 @@
 import React from "react";
 import Lubricants from "./Lubricants/Lubricants";
+import "./style.css";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Lubricants />
     </div>
   );
