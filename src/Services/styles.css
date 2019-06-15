@@ -35,7 +35,6 @@
   width: 200px;
 }
 .name1 {
-  border: 2px solid grey;
   padding: 5px;
   height: 233px;
   width: 200px;
@@ -76,9 +75,15 @@ button {
   background-color: yellow;
   border: 2px solid black;
   float: right;
+  margin-top: 23px;
+  margin-right: 10px;
 }
-p {
-  color: white;
-  height: 68px;
-  font-size: 10px;
+.paragraph {
+  background: white;
+  color: black;
+  height: 150px;
+  font-size: 15px;
+  width: 210px;
+  margin-top: -2%;
+  margin-left: 9px;
 }
