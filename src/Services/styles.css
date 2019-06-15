@@ -46,8 +46,8 @@
   padding: 5px;
   height: 233px;
   width: 200px;
-  margin-left: -5px;
-  margin-right: 9px;
+  margin-left: -13px;
+  margin-right: 10px;
 }
 .name2 {
   border: 2px solid black;
@@ -90,7 +90,8 @@ button {
   color: black;
   height: 150px;
   font-size: 15px;
-  width: 210px;
+  width: 100%;
   margin-top: -2%;
   margin-left: 9px;
+  padding-left: 10px;
 }
