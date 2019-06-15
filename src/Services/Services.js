@@ -5,10 +5,10 @@ import Service from "../Service/Service";
 function Services() {
   return (
     <div className="services">
-      <Service />
-      <Service />
-      <Service />
-      <Service />
+      <Service title="AUTOMOTIVE" description="Computer" />
+      <Service title="COMMERICAL" description="Mechanical" />
+      <Service title="INDUSTRIAL" description="Electornics" />
+      <Service title="DIESEL EXHASTIVE FIELD" description="chemical" />
     </div>
   );
 }
