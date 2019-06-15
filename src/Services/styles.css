@@ -1,66 +1,75 @@
 .item1 {
-  background: yellow;
+  background: #eca113e8;
   height: 25px;
   font-weight: bold;
-  width: 206px;
-  padding: 9px;
+  padding-left: 9px;
+  padding-top: 8px;
+  margin: 10px;
+  width: 200px;
 }
 .item2 {
-  background: yellow;
+  background: #eca113e8;
   height: 25px;
   font-weight: bold;
-  width: 206px;
-  padding: 9px;
+  padding-left: 9px;
+  padding-top: 8px;
+  margin: 10px;
+  width: 200px;
 }
 .item3 {
-  background: yellow;
+  background: #eca113e8;
   height: 25px;
   font-weight: bold;
-  width: 206x;
-  padding: 9px;
+  padding-left: 9px;
+  padding-top: 8px;
+  margin: 10px;
+  width: 200px;
 }
 .item4 {
-  background: yellow;
+  background: #eca113e8;
   height: 25px;
   font-weight: bold;
-  width: 206px;
-  padding: 9px;
+  padding-left: 9px;
+  padding-top: 8px;
+  margin: 10px;
+  width: 200px;
 }
 .name1 {
-  border: 2px solid black;
+  border: 2px solid grey;
   padding: 5px;
   height: 233px;
-  width: 207px;
+  width: 200px;
 }
 .name4 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
-  width: 207px;
+  width: 200px;
 }
 .name2 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
-  width: 207px;
+  width: 200px;
 }
 .name3 {
   border: 2px solid black;
   padding: 5px;
   height: 233px;
-  width: 207px;
+  width: 200px;
 }
 #picture {
-  width: 208px;
+  width: 210px;
   height: 93px;
-  margin: 0px;
+  margin-left: 10px;
+  margin-top: -5%;
 }
 .services {
   display: flex;
   justify-content: space-evenly;
-  width: 939px;
-  height: 248px;
-  background: pink;
+  width: 940px;
+  height: 350px;
+  background: black;
   margin: auto;
 }
 button {
@@ -69,7 +78,7 @@ button {
   float: right;
 }
 p {
-  width: 206px;
+  color: white;
   height: 68px;
   font-size: 10px;
 }
