@@ -5,7 +5,10 @@ function BodySection() {
   return (
     <div className="body-section">
       <div className="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpfP-NqDiKaWEv1whlWiQhXFfjuUnIXUjkp2NYrExgyfx02TeC5A" />
+        <img
+          className="pic"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpfP-NqDiKaWEv1whlWiQhXFfjuUnIXUjkp2NYrExgyfx02TeC5A"
+        />
       </div>
       <div className="about-ppc">
         <div className="about">
