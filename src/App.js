@@ -1,10 +1,10 @@
 import React from "react";
-import Index from "./GridExmpale1";
+import Index1 from "./GridExmaple2/index1";
 
 function App() {
   return (
     <div>
-      <Index />
+      <Index1 />
     </div>
   );
 }
