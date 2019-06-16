@@ -1,11 +1,10 @@
 import React from "react";
-import Lubricants from "./Lubricants/Lubricants";
-import "./style.css";
+import Index from "./GridExmpale1";
 
 function App() {
   return (
-    <div className="app">
-      <Lubricants />
+    <div>
+      <Index />
     </div>
   );
 }
