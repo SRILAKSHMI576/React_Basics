@@ -1,10 +1,10 @@
 import React from "react";
-import Index1 from "./GridExmaple2/index1";
+import Amazon from "./Amazon/Amazon";
 
 function App() {
   return (
     <div>
-      <Index1 />
+      <Amazon />
     </div>
   );
 }
