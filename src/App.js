@@ -1,10 +1,10 @@
 import React from "react";
-import Amazon from "./Amazon/Amazon";
+import Advertisement from "./Advertisement/Advertisement";
 
 function App() {
   return (
     <div>
-      <Amazon />
+      <Advertisement />
     </div>
   );
 }
