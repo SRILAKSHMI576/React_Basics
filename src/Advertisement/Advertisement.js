@@ -15,7 +15,7 @@ function Advertisement() {
             <img
               className="image2"
               src="
-              amazon-boxes.jpg"
+              https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/amazon-prime-aacs.png?itok=UGbCIhIQ"
             />
             <p className="orders">Your Orders</p>
           </a>
