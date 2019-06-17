@@ -1,13 +1,8 @@
-.premium {
-  display: flex;
-  justify-content: space-evenly;
-  width: 1290px;
-  height: 350px;
-}
-.premium1 {
-  display: flex;
-  justify-content: space-evenly;
-  width: 1290px;
-  height: 350px;
-  margin-top: 90px;
+.nopping {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  grid-row-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
