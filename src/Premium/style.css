@@ -1,0 +1,6 @@
+.premium {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1290px;
+  height: 350px;
+}
