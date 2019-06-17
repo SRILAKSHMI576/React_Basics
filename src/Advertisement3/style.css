@@ -1,0 +1,40 @@
+.advertisement3 {
+  border: 1px solid black;
+  width: 315px;
+  height: 420px;
+}
+.photos1 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 21px;
+}
+.caps {
+  height: 260px;
+  width: 259px;
+  margin-top: 8px;
+  margin-left: 6px;
+  margin-top: -8px;
+}
+.pictures1 {
+  display: flex;
+  width: 272px;
+  height: 131px;
+  margin-bottom: 2px;
+  margin-left: 21px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.machine {
+  margin-left: 26px;
+  margin-top: -4px;
+}
+.see-more {
+  margin-left: 26px;
+  color: blue;
+  margin-bottom: 20px;
+}
+a.see-more:hover {
+  text-decoration: underline;
+}
