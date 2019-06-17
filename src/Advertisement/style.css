@@ -1,0 +1,81 @@
+.advertisement {
+  border: 1px solid black;
+  width: 315px;
+  height: 420px;
+}
+.para1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.para2 {
+  font-size: 15px;
+  margin-top: -19px;
+}
+.para {
+  margin-left: 80px;
+}
+.para3 {
+  font-weight: bold;
+  margin-left: 21px;
+  margin-bottom: 8px;
+}
+.image1 {
+  height: 70px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.image2 {
+  height: 90px;
+  width: 90px;
+  margin-right: 9px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.image3 {
+  height: 70px;
+  margin-left: 80px;
+  margin-top: 8px;
+}
+.images1 {
+  display: flex;
+  background: aqua;
+  width: 272px;
+  height: 131px;
+  margin-bottom: 2px;
+  margin-left: 21px;
+}
+.images2 {
+  display: flex;
+  background: aqua;
+  width: 272px;
+  height: 131px;
+  margin-left: 21px;
+}
+.image4 {
+  height: 70px;
+  margin-left: 120px;
+  margin-top: 8px;
+}
+.para4 {
+  margin-left: 120px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.orders {
+  margin-top: 5px;
+  text-align: center;
+}
+.mobile {
+  margin-left: 55px;
+  margin-top: 5px;
+  text-align: center;
+}
+.Fashion {
+  text-align: center;
+}
+.Avertise {
+  display: flex;
+}
