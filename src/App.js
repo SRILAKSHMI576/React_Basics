@@ -1,10 +1,10 @@
 import React from "react";
-import Advertisement from "./Advertisement/Advertisement";
+import Premium from "./Premium/Premium";
 
 function App() {
   return (
     <div>
-      <Advertisement />
+      <Premium />
     </div>
   );
 }
