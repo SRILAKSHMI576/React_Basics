@@ -1,0 +1,82 @@
+.advertisement2 {
+  border: 1px solid black;
+  width: 315px;
+  height: 420px;
+}
+.paragraph1 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 21px;
+}
+.picture1 {
+  height: 70px;
+  width: 80px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.picture2 {
+  height: 70px;
+  width: 90px;
+  margin-right: 9px;
+  margin-top: 8px;
+  margin-left: 40px;
+}
+.picture3 {
+  height: 70px;
+  margin-left: 12px;
+  margin-top: 8px;
+  width: 80px;
+}
+.picture4 {
+  height: 70px;
+  margin-left: 60px;
+  margin-top: 8px;
+  width: 80px;
+}
+.pictures1 {
+  display: flex;
+  background: aqua;
+  width: 272px;
+  height: 131px;
+  margin-bottom: 2px;
+  margin-left: 21px;
+}
+.pictures2 {
+  display: flex;
+  background: aqua;
+  width: 272px;
+  height: 131px;
+  margin-left: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.recharge {
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+.bills {
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+.Food {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.offers {
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+.explore {
+  margin-left: 21px;
+  margin-top: 5px;
+}
+.see {
+  margin-left: 21px;
+  color: blue;
+}
+a.see:hover {
+  text-decoration: underline;
+}
