@@ -7,7 +7,7 @@ import Advertisement3 from "../Advertisement3/Advertisement3";
 
 function Premium() {
   return (
-    <div>
+    <div className="nopping">
       <div className="premium">
         <Advertisement />
         <Advertisement1
