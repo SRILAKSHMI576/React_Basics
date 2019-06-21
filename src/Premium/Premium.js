@@ -35,11 +35,13 @@ function Premium() {
         title="Washing machines"
         para="Up to 25% off: Washing machines | No cost EMI offers"
         para2="Explore all washing machines"
+        link="https://www.hbh-woolacotts.co.uk/media/products/WMEUF944P_original.jpg"
       />
       <Advertisement3
         title="Smart gadgets by Amazon"
         para="Make everyday easier with Echo, Kindle & Fire TV stick"
         para2="Shop now"
+        link="https://images-na.ssl-images-amazon.com/images/I/81N3Nc6MthL._SX679_.jpg"
       />
     </div>
   );

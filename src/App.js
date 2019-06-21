@@ -1,10 +1,10 @@
 import React from "react";
-import Premium from "./Premium/Premium";
+import FacebookHeader from "./FacebookHeader/FacebookHeader";
 
 function App() {
   return (
     <div>
-      <Premium />
+      <FacebookHeader />
     </div>
   );
 }
