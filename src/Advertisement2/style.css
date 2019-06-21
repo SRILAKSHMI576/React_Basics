@@ -1,5 +1,5 @@
 .advertisement2 {
-  border: 1px solid black;
+  box-shadow: 2px 2px 9px 2px darkgrey;
   width: 315px;
   height: 420px;
 }
