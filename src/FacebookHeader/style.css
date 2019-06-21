@@ -1,0 +1,45 @@
+.facebook-header {
+  width: 1355px;
+  height: 82px;
+  background: rgb(63, 92, 154);
+  border: 1px solid #133783;
+  display: flex;
+}
+.title {
+  color: white;
+  margin-left: 200px;
+  font-size: 35px;
+}
+.details {
+  margin-left: 400px;
+  padding-top: 17px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+}
+.input {
+  border: 1px solid black;
+}
+.button {
+  background: rgb(156, 171, 197);
+  cursor: pointer;
+  border: 1px solid black;
+  color: white;
+  margin-top: 17px;
+  font-weight: bold;
+  padding: 2px;
+}
+.button:hover {
+  background: rgb(63, 92, 154);
+}
+.link {
+  color: rgb(156, 171, 197);
+  text-decoration: none;
+  margin-top: 58px;
+  margin-left: -234px;
+  font-size: 15px;
+}
+.link:hover {
+  text-decoration: underline;
+}
