@@ -9,10 +9,7 @@ function Advertisement3(props) {
       <div className="photos1">
         <div>
           <a href="https://www.amazon.in/">
-            <img
-              className="caps"
-              src="https://www.hbh-woolacotts.co.uk/media/products/WMEUF944P_original.jpg"
-            />
+            <img className="caps" src={props.link} />
           </a>
         </div>
       </div>
