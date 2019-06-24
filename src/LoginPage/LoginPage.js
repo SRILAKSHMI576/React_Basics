@@ -124,10 +124,19 @@ function LoginPage() {
           <input className="radio-button2" type="radio" value="gender" /> Female
           <input className="radio-button3" type="radio" value="gender" /> Custom
         </label>
-        <p className="link">
+        <p className="link-1">
           By clicking Sign Up, you agree to our Terms, Data Policy and <br />
           Cookie Policy. You may receive SMS notifications from us and <br />
           can opt out at any time.
+        </p>
+
+        <button className="Sign-up">Sign Up</button>
+
+        <p className="foot">
+          <a className="create" href="facebook.com">
+            Create a Page
+          </a>{" "}
+          for a celebrity, band or business.
         </p>
       </div>
     </div>

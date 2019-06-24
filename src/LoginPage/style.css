@@ -61,10 +61,38 @@
 .radio-button3 {
   margin-left: 10px;
 }
-.link {
+.link-1 {
   color: #777;
   font-size: 11px;
   width: 316px;
   margin-left: 2px;
   margin-top: 14px;
+}
+.Sign-up {
+  width: 194px;
+  height: 39px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  background-color: #69a74e;
+  background: linear-gradient(#67ae55, #578843);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.foot {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+.create {
+  text-decoration: none;
+  color: blueviolet;
+}
+.create:hover {
+  text-decoration: underline;
 }
