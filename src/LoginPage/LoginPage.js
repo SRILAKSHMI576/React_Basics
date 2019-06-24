@@ -118,6 +118,17 @@ function LoginPage() {
             <option value="10">1990</option>
           </select>
         </div>
+        <p className="Gender">Gender</p>
+        <label>
+          <input className="radio-button1" type="radio" value="gender" /> Male
+          <input className="radio-button2" type="radio" value="gender" /> Female
+          <input className="radio-button3" type="radio" value="gender" /> Custom
+        </label>
+        <p className="link">
+          By clicking Sign Up, you agree to our Terms, Data Policy and <br />
+          Cookie Policy. You may receive SMS notifications from us and <br />
+          can opt out at any time.
+        </p>
       </div>
     </div>
   );

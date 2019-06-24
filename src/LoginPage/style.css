@@ -40,7 +40,8 @@
   width: 372px;
   margin-top: 10px;
 }
-.birthday {
+.birthday,
+.Gender {
   color: #90949c;
   font-size: 16px;
   font-weight: bold;
@@ -50,4 +51,20 @@
 .Year {
   width: 58px;
   height: 28px;
+  padding: 2px;
+}
+.calendar {
+  margin-top: -10px;
+}
+.radio-button1,
+.radio-button2,
+.radio-button3 {
+  margin-left: 10px;
+}
+.link {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin-left: 2px;
+  margin-top: 14px;
 }
