@@ -1,0 +1,17 @@
+p {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.title {
+  width: 1340px;
+  height: 55px;
+  background: rgb(245, 245, 245);
+  min-height: 64px;
+  box-shadow: 0px 3px lightgray;
+}
