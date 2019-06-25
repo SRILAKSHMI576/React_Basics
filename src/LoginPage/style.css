@@ -28,12 +28,12 @@
 }
 .first {
   padding: 10px 10px;
-  border-color: #bdc7d8;
+  border: 1px solid #bdc7d8;
   border-radius: 5px;
   margin: 0;
 }
 .email {
-  border-color: #bdc7d8;
+  border: 1px solid #bdc7d8;
   border-radius: 5px;
   padding: 10px 10px;
   margin: 0;
