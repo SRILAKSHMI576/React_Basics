@@ -2,20 +2,21 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import "./style.css";
+import Checkout from "./Checkout/Checkout";
 
 function App() {
   return (
     <div className="app">
-      <TextField
+      {/* <TextField
         className="field"
         id="outlined-name"
         label="Email Address"
         margin="normal"
         variant="outlined"
       />
-      <br />
+      <br /> */}
 
-      <TextField
+      {/* <TextField
         className="field"
         id="outlined-name"
         label="Password"
@@ -26,7 +27,8 @@ function App() {
 
       <Button className="sign-up" variant="contained" color="primary">
         Sign Up
-      </Button>
+      </Button> */}
+      <Checkout />
     </div>
   );
 }
