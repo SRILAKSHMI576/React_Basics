@@ -9,6 +9,7 @@ function Checkout() {
   return (
     <div className="container">
       <h1>Checkout</h1>
+      <h4>Shipping Address</h4>
       <TextField id="standard-dense" label="First name*" margin="dense" />
       <TextField id="standard-dense" label="Last name*" margin="dense" />
       <div>
