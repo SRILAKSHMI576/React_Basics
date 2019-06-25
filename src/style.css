@@ -1,5 +1,15 @@
+.field {
+  /* margin-top: 16px;
+  margin-bottom: 8px; */
+  width: 400px;
+}
+.sign-up {
+  background-color: blue;
+  color: white;
+  width: 400px;
+}
 .app {
-  margin: auto;
-  width: 1000px;
+  margin-left: auto;
   margin-right: auto;
+  width: 500px;
 }
