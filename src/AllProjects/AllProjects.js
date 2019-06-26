@@ -9,6 +9,8 @@ import Index1 from "../GridExmaple2/index1";
 import Index from "../GridExmpale1";
 import GridLayout from "../GridLayoutExamples/GridLayout";
 import Time from "../Time";
+import JavaScript from "../JavaScript/JavaScript";
+import JavascriptBasics from "../JavaScript/JavascriptBasics/JavascriptBasics";
 
 function AllProjects() {
   return (
@@ -24,6 +26,8 @@ function AllProjects() {
           <Route path="/index" component={Index} />
           <Route path="/grid-layout" component={GridLayout} />
           <Route path="/time" component={Time} />
+          {/* <Route path="/js" component={JavaScript} /> */}
+          <Route path="/js/basics" component={JavascriptBasics} />
         </div>
       </Router>
     </div>
