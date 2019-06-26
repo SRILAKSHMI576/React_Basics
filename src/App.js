@@ -1,11 +1,11 @@
 import React from "react";
-import Checkout from "./Checkout/Checkout";
+import AllProjects from "./AllProjects/AllProjects";
 
 function App() {
   return (
     <div className="app">
       <div>
-        <Checkout />
+        <AllProjects />
       </div>
     </div>
   );
