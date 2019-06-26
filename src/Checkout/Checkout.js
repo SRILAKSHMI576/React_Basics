@@ -10,8 +10,20 @@ function Checkout() {
     <div className="container">
       <h1>Checkout</h1>
       <h4>Shipping Address</h4>
-      <TextField id="standard-dense" label="First name*" margin="dense" />
-      <TextField id="standard-dense" label="Last name*" margin="dense" />
+      <div className="name">
+        <TextField
+          className="first-name"
+          id="standard-dense"
+          label="First name*"
+          margin="dense"
+        />
+        <TextField
+          className="last-name"
+          id="standard-dense"
+          label="Last name*"
+          margin="dense"
+        />
+      </div>
       <div>
         <TextField
           className="Address"
@@ -27,19 +39,31 @@ function Checkout() {
           margin="dense"
         />
         <br />
-        <TextField id="standard-dense" label="City*" margin="dense" />
         <TextField
+          className="first"
+          id="standard-dense"
+          label="City*"
+          margin="dense"
+        />
+        <TextField
+          className="first"
           id="standard-dense"
           label="State/Region/Provience*"
           margin="dense"
         />
         <br />
         <TextField
+          className="first"
           id="standard-dense"
           label="Zip / Postal Code**"
           margin="dense"
         />{" "}
-        <TextField id="standard-dense" label="Country*" margin="dense" />
+        <TextField
+          className="first"
+          id="standard-dense"
+          label="Country*"
+          margin="dense"
+        />
       </div>
 
       <div>

@@ -1,6 +1,11 @@
 import React from "react";
+import Premium from "../Premium/Premium";
 
 function Amazon() {
-  return <div>Amazon</div>;
+  return (
+    <div>
+      <Premium />
+    </div>
+  );
 }
 export default Amazon;

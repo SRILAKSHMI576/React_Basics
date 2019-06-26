@@ -1,7 +1,14 @@
 import React from "react";
+import FacebookHeader from "../FacebookHeader/FacebookHeader";
+import LoginPage from "../LoginPage/LoginPage";
 
 function Facebook() {
-  return <div>Facebook</div>;
+  return (
+    <div>
+      <FacebookHeader />
+      <LoginPage />
+    </div>
+  );
 }
 
 export default Facebook;
