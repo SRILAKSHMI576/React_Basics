@@ -38,34 +38,35 @@ function Checkout() {
           label="Address line2*"
           margin="dense"
         />
-        <br />
+      </div>
+      <div className="name">
         <TextField
-          className="first"
+          className="first-name"
           id="standard-dense"
           label="City*"
           margin="dense"
         />
         <TextField
-          className="first"
+          className="last-name"
           id="standard-dense"
-          label="State/Region/Provience*"
+          label="State/Province/Region*"
           margin="dense"
         />
-        <br />
+      </div>
+      <div className="name">
         <TextField
-          className="first"
+          className="first-name"
           id="standard-dense"
-          label="Zip / Postal Code**"
+          label="Zip / Postal code*"
           margin="dense"
-        />{" "}
+        />
         <TextField
-          className="first"
+          className="last-name"
           id="standard-dense"
           label="Country*"
           margin="dense"
         />
       </div>
-
       <div>
         <FormControlLabel
           control={<Checkbox value="checkedA" />}
