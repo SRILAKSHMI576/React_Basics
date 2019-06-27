@@ -18,6 +18,9 @@ function Excerises() {
   var circle_perimeter = 2 * Math.PI * radius;
   var fahrenheit = 100;
   var celsius = ((fahrenheit - 32) * 5) / 9;
+  var dollar = 60;
+  var ruppe = 3;
+  var dollar_to_rupee = dollar * ruppe;
   return (
     <div>
       {n} Square = {square}
@@ -41,6 +44,8 @@ function Excerises() {
       Circle Perimeter = {circle_perimeter}
       <br />
       Fahrenheit to Celsius = {celsius}
+      <br />
+      Dollar to Rupee = {dollar_to_rupee}
     </div>
   );
 }
