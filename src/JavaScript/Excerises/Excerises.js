@@ -4,15 +4,18 @@ function Excerises() {
   var n = 5;
   var square = n * n;
   var cube = n * n * n;
-  var sum_of_natural = (n * (n + 1)) / 2;
+  var sum_of_natural_number = (n * (n + 1)) / 2;
+  var sum_of_natural_squares = (n * (n + 2) * (2 * n + 1)) / 6;
 
   return (
     <div>
-      {m} Square = {square}
+      {n} Square = {square}
       <br />
-      {m} Cube = {cube}
+      {n} Cube = {cube}
       <br />
-      {m} Sum Of natural numbers = {sum_of_natural}
+      Sum Of natural n numbers = {sum_of_natural_number}
+      <br />
+      Sum of natural n number squares = {sum_of_natural_squares}
     </div>
   );
 }
