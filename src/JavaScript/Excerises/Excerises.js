@@ -16,6 +16,8 @@ function Excerises() {
   var radius = 2;
   var circle_area = Math.PI * radius * radius;
   var circle_perimeter = 2 * Math.PI * radius;
+  var fahrenheit = 100;
+  var celsius = ((fahrenheit - 32) * 5) / 9;
   return (
     <div>
       {n} Square = {square}
@@ -37,6 +39,8 @@ function Excerises() {
       Circle Area = {circle_area}
       <br />
       Circle Perimeter = {circle_perimeter}
+      <br />
+      Fahrenheit to Celsius = {celsius}
     </div>
   );
 }
