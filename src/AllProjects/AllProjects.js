@@ -11,6 +11,8 @@ import GridLayout from "../GridLayoutExamples/GridLayout";
 import Time from "../Time";
 import JavaScript from "../JavaScript/JavaScript";
 import JavascriptBasics from "../JavaScript/JavascriptBasics/JavascriptBasics";
+import Checkout from "../Checkout/Checkout";
+import Excerises from "../JavaScript/Excerises/Excerises";
 
 function AllProjects() {
   return (
@@ -26,8 +28,10 @@ function AllProjects() {
           <Route path="/index" component={Index} />
           <Route path="/grid-layout" component={GridLayout} />
           <Route path="/time" component={Time} />
+          <Route path="/checkout" component={Checkout} />
           {/* <Route path="/js" component={JavaScript} /> */}
           <Route path="/js/basics" component={JavascriptBasics} />
+          <Route path="/excerises" component={Excerises} />
         </div>
       </Router>
     </div>
