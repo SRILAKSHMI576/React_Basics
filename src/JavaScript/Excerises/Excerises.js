@@ -2,8 +2,8 @@ import React from "react";
 
 function Excerises() {
   var n = 5;
-  var square = n * n;
-  var cube = n * n * n;
+  var square = n ** 2;
+  var cube = n ** 3;
   var sum_of_natural_number = (n * (n + 1)) / 2;
   var sum_of_natural_squares = (n * (n + 2) * (2 * n + 1)) / 6;
   var length = 3;
