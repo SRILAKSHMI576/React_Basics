@@ -7,6 +7,8 @@ function Excerises() {
   return (
     <div>
       {m} Square = {square}
+      <br />
+      {m} Cube = {cube}
     </div>
   );
 }
