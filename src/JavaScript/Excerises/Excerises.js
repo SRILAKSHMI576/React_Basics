@@ -13,7 +13,9 @@ function Excerises() {
   var width = 6;
   var square_area = width * width;
   var square_perimeter = 4 * width;
-
+  var radius = 2;
+  var circle_area = Math.PI * radius * radius;
+  var circle_perimeter = 2 * Math.PI * radius;
   return (
     <div>
       {n} Square = {square}
@@ -31,6 +33,10 @@ function Excerises() {
       Square Area = {square_area}
       <br />
       Square Perimeter = {square_perimeter}
+      <br />
+      Circle Area = {circle_area}
+      <br />
+      Circle Perimeter = {circle_perimeter}
     </div>
   );
 }
