@@ -10,6 +10,9 @@ function Excerises() {
   var bredth = 4;
   var reactangle_area = length * bredth;
   var reactangle_perimeter = 2 * (length + bredth);
+  var width = 6;
+  var square_area = width * width;
+  var square_perimeter = 4 * width;
 
   return (
     <div>
@@ -24,6 +27,10 @@ function Excerises() {
       Rectangle Area = {reactangle_area}
       <br />
       Rectangle Perimeter = {reactangle_perimeter}
+      <br />
+      Square Area = {square_area}
+      <br />
+      Square Perimeter = {square_perimeter}
     </div>
   );
 }
