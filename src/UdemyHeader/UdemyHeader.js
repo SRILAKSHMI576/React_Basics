@@ -29,6 +29,7 @@ function UdemyHeader() {
           </button>
         </form>
         <div className="teach">Teach on Udemy</div>
+        <div className="courses">My Courses</div>
       </div>
     </div>
   );
