@@ -13,6 +13,7 @@ import JavaScript from "../JavaScript/JavaScript";
 import JavascriptBasics from "../JavaScript/JavascriptBasics/JavascriptBasics";
 import Checkout from "../Checkout/Checkout";
 import Excerises from "../JavaScript/Excerises/Excerises";
+import Operator from "../Operator/Operator";
 
 function AllProjects() {
   return (
@@ -32,6 +33,7 @@ function AllProjects() {
           {/* <Route path="/js" component={JavaScript} /> */}
           <Route path="/js/basics" component={JavascriptBasics} />
           <Route path="/excerises" component={Excerises} />
+          <Route path="/operator" component={Operator} />
         </div>
       </Router>
     </div>
