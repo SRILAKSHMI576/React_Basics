@@ -15,6 +15,7 @@ import Checkout from "../Checkout/Checkout";
 import Excerises from "../JavaScript/Excerises/Excerises";
 import Operator from "../Operator/Operator";
 import AboutState from "../AboutState/AboutState";
+import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
 
 function AllProjects() {
   return (
@@ -36,6 +37,7 @@ function AllProjects() {
           <Route path="/excerises" component={Excerises} />
           <Route path="/operator" component={Operator} />
           <Route path="/about-state" component={AboutState} />
+          <Route path="/udemy" component={UdemyHomePage} />
         </div>
       </Router>
     </div>
