@@ -8,16 +8,22 @@ class AboutState extends React.Component {
   render() {
     return (
       <div>
+        <input
+          onChange={e => {
+            this.setState({
+              a: parseInt(e.target.value)
+            });
+          }}
+        />
         <input />
-        <input />
         <br />
-        {"Add:" + (this.state.a + this.state.b)}
+        {"A:" + this.state.a + " B:" + this.state.b}
         <br />
-        {"Sub: " + (this.state.a + this.state.b)}
+        {"Sub: " + (this.state.a - this.state.b)}
         <br />
-        {"Mul: " + (this.state.a + this.state.b)}
+        {"Mul: " + this.state.a * this.state.b}
         <br />
-        {"Div: " + (this.state.a + this.state.b)}
+        {"Div: " + this.state.a / this.state.b}
       </div>
     );
   }
