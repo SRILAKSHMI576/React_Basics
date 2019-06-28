@@ -5,17 +5,23 @@ class AboutState extends React.Component {
     a: 10,
     b: 5
   };
+  setA = e => {
+    this.setState({
+      a: parseInt(e.target.value)
+    });
+  };
+  setB = e => {
+    this.setState({
+      b: parseInt(e.target.value)
+    });
+  };
+
   render() {
     return (
       <div>
-        <input
-          onChange={e => {
-            this.setState({
-              a: parseInt(e.target.value)
-            });
-          }}
-        />
-        <input />
+        <input onChange={this.setA} />
+        <input onChange={this.setB} />
+        <button className="Result">Result</button>
         <br />
         {"A:" + this.state.a + " B:" + this.state.b}
         <br />
