@@ -6,7 +6,20 @@ class AboutState extends React.Component {
     b: 5
   };
   render() {
-    return <div>{"A:" + this.state.a + " B:" + this.state.b}</div>;
+    return (
+      <div>
+        <input />
+        <input />
+        <br />
+        {"Add:" + (this.state.a + this.state.b)}
+        <br />
+        {"Sub: " + (this.state.a + this.state.b)}
+        <br />
+        {"Mul: " + (this.state.a + this.state.b)}
+        <br />
+        {"Div: " + (this.state.a + this.state.b)}
+      </div>
+    );
   }
 }
 export default AboutState;
