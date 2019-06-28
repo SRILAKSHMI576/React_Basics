@@ -1,0 +1,45 @@
+.udemy-header {
+  width: 1367px;
+  height: 55px;
+  background: grey;
+}
+.udemy-image {
+  width: 106px;
+  height: 34px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+span {
+  color: #505763;
+  margin-left: 55px;
+}
+input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 563px;
+  background: #f1f1f1;
+  margin-top: -42px;
+  margin-left: 288px;
+}
+.button1 {
+  padding: 20px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 50px;
+  background: #f1f1f1;
+  margin-top: -42px;
+  margin-right: 490px;
+  cursor: pointer;
+  height: 20px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 80px;
+}
+.teach {
+  margin-left: 900px;
+  margin-top: -30px;
+}
