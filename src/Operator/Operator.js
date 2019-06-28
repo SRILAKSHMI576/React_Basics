@@ -6,9 +6,10 @@ class Operator extends React.Component {
     b: 3
   };
   render() {
+    const Add = this.state.a + this.state.b;
     return (
       <div>
-        {"Add: " + (this.state.a + this.state.b)}
+        {"Add: " + Add}
         <br />
         {"sub: " + (this.state.a - this.state.b)}
         <br />
