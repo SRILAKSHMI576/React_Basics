@@ -16,6 +16,7 @@ import Excerises from "../JavaScript/Excerises/Excerises";
 import Operator from "../Operator/Operator";
 import AboutState from "../AboutState/AboutState";
 import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
+import StateEx from "../StateEx/StateEx";
 
 function AllProjects() {
   return (
@@ -38,6 +39,7 @@ function AllProjects() {
           <Route path="/operator" component={Operator} />
           <Route path="/about-state" component={AboutState} />
           <Route path="/udemy" component={UdemyHomePage} />
+          <Route path="/state-ex" component={StateEx} />
         </div>
       </Router>
     </div>
