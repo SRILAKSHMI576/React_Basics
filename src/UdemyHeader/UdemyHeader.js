@@ -16,7 +16,7 @@ function UdemyHeader() {
         <div className="categories">Categories</div>
         <form>
           <input
-            classname="text"
+            className="text"
             type="text"
             placeholder="Search for anything"
             name="search"
