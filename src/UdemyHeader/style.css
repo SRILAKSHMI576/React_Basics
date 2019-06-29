@@ -10,10 +10,12 @@
   margin-top: 10px;
   cursor: pointer;
 }
-span {
+.categories {
   color: #505763;
   margin-left: 55px;
   cursor: pointer;
+  margin-top: -20px;
+  margin-left: 160px;
 }
 input {
   padding: 10px;
@@ -22,7 +24,7 @@ input {
   float: left;
   width: 563px;
   background: #f1f1f1;
-  margin-top: -42px;
+  margin-top: -40px;
   margin-left: 288px;
 }
 .button1 {

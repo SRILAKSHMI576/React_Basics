@@ -13,7 +13,7 @@ function UdemyHeader() {
           height="32"
           data-purpose="udemy-brand-logo"
         />
-        <span>Categories</span>
+        <div className="categories">Categories</div>
         <form>
           <input
             classname="text"
