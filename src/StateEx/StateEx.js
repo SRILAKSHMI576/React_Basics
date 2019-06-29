@@ -10,18 +10,22 @@ class StateEx extends React.Component {
       a: parseInt(e.target.value)
     });
   };
-
+  setB = e => {
+    this.setState({
+      b: parseInt(e.target.value)
+    });
+  };
   render() {
     return (
       <div>
         <input onChange={this.setA} />
-        <input />
+        <input onChange={this.setB} />
         <br />
         {"A:" + this.state.a}
         {" B: " + this.state.b}
         <br />
         {"Square: " + this.state.a ** 2}
-        {" Cube:" + this.state.b}
+        {" Cube:" + this.state.b ** 3}
       </div>
     );
   }
