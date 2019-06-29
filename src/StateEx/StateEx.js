@@ -21,6 +21,7 @@ class StateEx extends React.Component {
         {" B: " + this.state.b}
         <br />
         {"Square: " + this.state.a ** 2}
+        {" Cube:" + this.state.b}
       </div>
     );
   }
