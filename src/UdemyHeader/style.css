@@ -85,3 +85,10 @@
   margin-right: 130px;
   margin-top: -30px;
 }
+.notification-icon {
+  float: right;
+  width: 23px;
+  height: 18px;
+  margin-right: 90px;
+  margin-top: -30px;
+}

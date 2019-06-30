@@ -38,6 +38,10 @@ function UdemyHeader() {
           className="cart"
           src="https://previews.123rf.com/images/aguiters/aguiters1711/aguiters171100033/90038691-shopping-cart-icon-vector.jpg"
         />
+        <img
+          className="notification-icon"
+          src="https://cdn0.iconfinder.com/data/icons/app-pack-1-musket-monoline/32/app-25-bell-512.png"
+        />
       </div>
     </div>
   );
