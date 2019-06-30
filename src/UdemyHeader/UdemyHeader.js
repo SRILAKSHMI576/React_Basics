@@ -30,6 +30,10 @@ function UdemyHeader() {
         </form>
         <div className="teach">Teach on Udemy</div>
         <div className="courses">My Courses</div>
+        <img
+          className="heart"
+          src="http://www.clker.com/cliparts/Q/P/D/n/2/c/red-heart-outline-md.png"
+        />
       </div>
     </div>
   );
