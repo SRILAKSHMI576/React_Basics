@@ -1,7 +1,7 @@
 .udemy-header {
   width: 1367px;
   height: 55px;
-  background: grey;
+  background: white;
 }
 .udemy-image {
   width: 106px;
@@ -53,9 +53,10 @@
   height: 30px;
 }
 .teach:hover {
-  background: red;
+  background: #505763;
   border-radius: 3px;
   cursor: pointer;
+  color: white;
 }
 .courses {
   margin-left: 1050px;
@@ -67,9 +68,10 @@
   height: 30px;
 }
 .courses:hover {
-  background: red;
+  background: #505763;
   border-radius: 3px;
   cursor: pointer;
+  color: white;
 }
 .heart {
   float: right;
