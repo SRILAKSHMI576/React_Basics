@@ -1,0 +1,18 @@
+.header-menu {
+  width: 1367px;
+  height: 43px;
+  background: lightgrey;
+  box-shadow: grey 0px 0px 5px;
+}
+.head-menu {
+  width: 1400px;
+  text-align: center;
+  line-height: 43px;
+}
+.head-menu a {
+  padding: 14px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 30px;
+}
