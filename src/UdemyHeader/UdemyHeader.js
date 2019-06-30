@@ -34,6 +34,10 @@ function UdemyHeader() {
           className="heart"
           src="http://www.clker.com/cliparts/Q/P/D/n/2/c/red-heart-outline-md.png"
         />
+        <img
+          className="cart"
+          src="https://previews.123rf.com/images/aguiters/aguiters1711/aguiters171100033/90038691-shopping-cart-icon-vector.jpg"
+        />
       </div>
     </div>
   );
