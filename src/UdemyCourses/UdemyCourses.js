@@ -14,22 +14,17 @@ function UdemyCourses(props) {
       <div className="udemy-course">
         <div className="deep-python">
           <img className="deep-py" src={props.image} />
-          <p className="deep-learn">Deep Learning Prerequisites:The Num...</p>
-          <p className="lazy">Lazy Programmer Inc.</p>
-          <p className="views">4.5 (12,443)</p>
-          <p className="fee">Free</p>
+          <p className="deep-learn">{props.text2}</p>
+          <p className="lazy">{props.text3}</p>
+          <p className="views">{props.views}</p>
+          <p className="fee">{props.fee}</p>
         </div>
         <div className="ai">
           <div className="deep-python">
-            <img
-              className="deep-py"
-              src="https://thebulletin.org/wp-content/uploads/2018/06/Landing-Page-AI-Twitter.jpg"
-            />
-            <p className="deep-learn">
-              Artificial Intelligence A-Z<sup>TM</sup>Learn How To Build..
-            </p>
-            <p className="lazy">Hadelin de Ponteves, Kirill Erem...</p>
-            <p className="views">4.4 (10,371)</p>
+            <img className="deep-py" src={props.link1} />
+            <p className="deep-learn">{props.text4}</p>
+            <p className="lazy">{props.text5}</p>
+            <p className="views">{props.views1}</p>
             <p className="fee">
               <del>12,800</del>
               <ins>500</ins>
@@ -38,15 +33,10 @@ function UdemyCourses(props) {
         </div>
         <div className="ai">
           <div className="deep-python">
-            <img
-              className="deep-py"
-              src="https://i.udemycdn.com/course/750x422/1080408_2645_3.jpg"
-            />
-            <p className="deep-learn">
-              Artificial Intelligence: Reinforcement Learning..
-            </p>
-            <p className="lazy">Lazy Programmer Inc.</p>
-            <p className="views">4.6 (4,468)</p>
+            <img className="deep-py" src={props.link2} />
+            <p className="deep-learn">{props.text6}</p>
+            <p className="lazy">{props.text7}</p>
+            <p className="views">{props.views}</p>
             <p className="fee">
               <del>11,520</del>
               <ins>500</ins>
@@ -55,15 +45,10 @@ function UdemyCourses(props) {
         </div>
         <div className="ai">
           <div className="deep-python">
-            <img
-              className="deep-py"
-              src="https://i.udemycdn.com/course/750x422/918390_02a6.jpg"
-            />
-            <p className="deep-learn">
-              Natural Language Processing with Deep..
-            </p>
-            <p className="lazy">Lazy Programmer Inc.</p>
-            <p className="views">4.6 (3,349)</p>
+            <img className="deep-py" src={props.link3} />
+            <p className="deep-learn">{props.text8}</p>
+            <p className="lazy">{props.text9}</p>
+            <p className="views">{props.views3}</p>
             <p className="fee">
               <del>12,800</del>
               <ins>500</ins>
@@ -72,13 +57,10 @@ function UdemyCourses(props) {
         </div>
         <div className="ai">
           <div className="deep-python">
-            <img
-              className="deep-py"
-              src="https://i.udemycdn.com/course/750x422/772462_d385.jpg"
-            />
-            <p className="deep-learn">Modern Deep Learning in Python..</p>
-            <p className="lazy">Lazy Programmer Inc.</p>
-            <p className="views">4.6 (1, 707)</p>
+            <img className="deep-py" src={props.link4} />
+            <p className="deep-learn">{props.text10}</p>
+            <p className="lazy">{props.text11}</p>
+            <p className="views">{props.views4}</p>
             <p className="fee">
               <del>11,520</del>
               <ins>500</ins>
