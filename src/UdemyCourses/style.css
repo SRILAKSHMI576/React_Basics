@@ -1,0 +1,24 @@
+.what {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-left: 96px;
+}
+.view {
+  font-size: 20px;
+  margin-top: -22px;
+  margin-left: 96px;
+}
+.deep {
+  color: rgb(0, 87, 107);
+}
+.deep-python {
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  width: 220px;
+  height: 292px;
+  margin-left: 96px;
+}
+.deep-py {
+  width: 217px;
+  height: 121px;
+}
