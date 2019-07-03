@@ -1,0 +1,58 @@
+.add-image {
+  width: 1367px;
+  height: 310px;
+  background: red;
+}
+.sri {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-left: 96px;
+}
+.jump {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-left: 96px;
+}
+.react-image {
+  width: 220px;
+  height: 123px;
+  padding: 18px;
+}
+.react-img {
+  border: 1px solid grey;
+  width: 560px;
+  height: 157px;
+  margin-top: 10px;
+  margin-left: 96px;
+  display: flex;
+  background: rgb(80, 87, 99);
+}
+.rea {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+.learning {
+  background: rgb(0, 87, 107);
+  color: white;
+  padding: 8px;
+  float: left;
+  margin-left: 355px;
+  margin-top: -45px;
+  border: none;
+}
+.advert {
+  display: flex;
+}
+.js {
+  margin-left: -70px;
+}
+.my {
+  font-size: 20px;
+  float: right;
+  color: rgb(0, 87, 107);
+  margin-right: 110px;
+  margin-top: -25px;
+}
