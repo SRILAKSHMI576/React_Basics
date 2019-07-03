@@ -10,7 +10,17 @@ function UdemyHomePage() {
       <UdemyHeader />
       <UdemyMenu />
       <UdemyAdds />
-      <UdemyCourses />
+      <UdemyCourses
+        title="What to learn next"
+        text1="Because you viewed"
+        link=" Deep Learning A-Z™: Hands-On Artificial Neural Networks"
+        image="https://i.udemycdn.com/course/750x422/980086_196d_2.jpg"
+      />
+      <UdemyCourses
+        text1="Featured courses in"
+        link=" Amazon AWS"
+        image="https://i.udemycdn.com/course/750x422/1921420_384a_5.jpg"
+      />
     </div>
   );
 }

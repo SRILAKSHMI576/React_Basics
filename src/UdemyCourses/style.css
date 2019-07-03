@@ -13,12 +13,40 @@
   color: rgb(0, 87, 107);
 }
 .deep-python {
-  box-shadow: 2px 2px 2px 2px lightgrey;
+  box-shadow: 2px 2px 2px 2px grey;
   width: 220px;
   height: 292px;
   margin-left: 96px;
 }
 .deep-py {
-  width: 217px;
+  width: 220px;
   height: 121px;
+}
+.deep-learn {
+  margin-top: 20px;
+  font-size: 17px;
+  margin-left: 15px;
+}
+.lazy {
+  color: grey;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.views {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 90px;
+}
+.fee {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 140px;
+  margin-top: -5px;
+}
+.udemy-course {
+  display: flex;
+}
+.ai {
+  margin-left: -81px;
 }
