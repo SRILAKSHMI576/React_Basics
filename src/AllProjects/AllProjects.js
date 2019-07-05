@@ -25,6 +25,7 @@ import Sum_of_Squares from "../StateEample/Sum_of_Squares";
 import Rectangle from "../StateEample/Rectangle";
 import StateSquare from "../StateEample/StateSquare";
 import Circle from "../StateEample/Circle";
+import Farenheit from "../StateEample/Farenheit";
 
 function AllProjects() {
   return (
@@ -56,6 +57,7 @@ function AllProjects() {
           <Route path="/rectangle" component={Rectangle} />
           <Route path="/state-square" component={StateSquare} />
           <Route path="/circle" component={Circle} />
+          <Route path="/farenheit" component={Farenheit} />
         </div>
       </Router>
     </div>
