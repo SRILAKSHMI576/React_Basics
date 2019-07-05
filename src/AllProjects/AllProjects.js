@@ -17,6 +17,7 @@ import Operator from "../Operator/Operator";
 import AboutState from "../AboutState/AboutState";
 import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
 import StateEx from "../StateEx/StateEx";
+import Square from "../StateEample/Square";
 
 function AllProjects() {
   return (
@@ -40,6 +41,7 @@ function AllProjects() {
           <Route path="/about-state" component={AboutState} />
           <Route path="/udemy" component={UdemyHomePage} />
           <Route path="/state-ex" component={StateEx} />
+          <Route path="/square" component={Square} />
         </div>
       </Router>
     </div>
