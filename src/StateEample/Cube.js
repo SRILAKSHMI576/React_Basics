@@ -8,13 +8,13 @@ class Cube extends React.Component {
   valueA = e => {
     const inputValue = e.target.value;
     this.setState({
-      a: parseInt(inputValue) ** 3
+      a: parseInt(inputValue)
     });
   };
   render() {
     return (
       <div>
-        <input onChange={this.valueA} />a = {this.state.a}
+        <input onChange={this.valueA} />a = {this.state.a ** 3}
       </div>
     );
   }
