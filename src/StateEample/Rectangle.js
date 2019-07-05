@@ -24,8 +24,8 @@ class Rectangle extends React.Component {
         <input onChange={this.valueB} />
         <br /> length = {this.state.length} <br />
         bredth = {this.state.bredth} <br />
-        Reactangle area = {this.state.length * this.state.bredth}
-        Reactangle Perimeter = {}
+        Reactangle area = {this.state.length * this.state.bredth} <br />
+        Reactangle Perimeter = {2 * (this.state.length + this.state.bredth)}
       </div>
     );
   }
