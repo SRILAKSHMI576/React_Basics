@@ -19,6 +19,8 @@ import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
 import StateEx from "../StateEx/StateEx";
 import Square from "../StateEample/Square";
 import Cube from "../StateEample/Cube";
+import Sum_of_natural_numbers from "../StateEample/Sum_of_numbers";
+import DollartoRuppe from "../StateEample/DollartoRuppe";
 
 function AllProjects() {
   return (
@@ -43,7 +45,9 @@ function AllProjects() {
           <Route path="/udemy" component={UdemyHomePage} />
           <Route path="/state-ex" component={StateEx} />
           <Route path="/square" component={Square} />
-          <Route oath="cube" component={Cube} />
+          <Route path="/cube" component={Cube} />
+          <Route path="/sum-of-numbers" component={Sum_of_natural_numbers} />
+          <Route path="/dollar-to-rupee" component={DollartoRuppe} />
         </div>
       </Router>
     </div>
