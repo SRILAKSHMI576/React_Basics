@@ -22,6 +22,7 @@ import Cube from "../StateEample/Cube";
 import Sum_of_natural_numbers from "../StateEample/Sum_of_numbers";
 import DollartoRuppe from "../StateEample/DollartoRuppe";
 import Sum_of_Squares from "../StateEample/Sum_of_Squares";
+import Rectangle from "../StateEample/Rectangle";
 
 function AllProjects() {
   return (
@@ -50,6 +51,7 @@ function AllProjects() {
           <Route path="/sum-of-numbers" component={Sum_of_natural_numbers} />
           <Route path="/dollar-to-rupee" component={DollartoRuppe} />
           <Route path="/sum-of-squares" component={Sum_of_Squares} />
+          <Route path="/rectangle" component={Rectangle} />
         </div>
       </Router>
     </div>
