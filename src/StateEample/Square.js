@@ -8,14 +8,14 @@ class Square extends React.Component {
   valueA = e => {
     const inputValue = e.target.value;
     this.setState({
-      a: parseInt(inputValue) ** 2
+      a: parseInt(inputValue)
     });
   };
   render() {
     return (
       <div>
         <input onChange={this.valueA} />
-        <br />a = {this.state.a} <br />
+        <br />a = {this.state.a ** 2} <br />
       </div>
     );
   }
