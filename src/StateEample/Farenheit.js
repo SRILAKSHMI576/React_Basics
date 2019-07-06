@@ -4,7 +4,7 @@ class Farenheit extends React.Component {
   state = {
     fahrenheit: 100
   };
-  valueA = e => {
+  changeFahrenheit = e => {
     const inputValue = e.target.value;
     this.setState({
       fahrenheit: parseInt(inputValue)
@@ -14,7 +14,7 @@ class Farenheit extends React.Component {
   render() {
     return (
       <div>
-        <input onChange={this.valueA} />
+        <input onChange={this.changeFahrenheit} />
         <br /> Farenheit = {this.state.fahrenheit} <br />
         Celsius = {((this.state.fahrenheit - 32) * 5) / 9}
       </div>

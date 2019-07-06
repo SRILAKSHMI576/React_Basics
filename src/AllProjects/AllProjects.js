@@ -26,6 +26,7 @@ import Rectangle from "../StateEample/Rectangle";
 import StateSquare from "../StateEample/StateSquare";
 import Circle from "../StateEample/Circle";
 import Farenheit from "../StateEample/Farenheit";
+import ButtonCount from "../StateEample/ButtonCount";
 
 function AllProjects() {
   return (
@@ -58,6 +59,7 @@ function AllProjects() {
           <Route path="/state-square" component={StateSquare} />
           <Route path="/circle" component={Circle} />
           <Route path="/farenheit" component={Farenheit} />
+          <Route path="/button-count" component={ButtonCount} />
         </div>
       </Router>
     </div>

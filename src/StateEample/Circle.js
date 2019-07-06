@@ -4,7 +4,7 @@ class Circle extends React.Component {
   state = {
     radius: 5
   };
-  valueA = e => {
+  changeRadius = e => {
     const inputValue = e.target.value;
     this.setState({
       raidus: parseInt(inputValue)
@@ -14,7 +14,7 @@ class Circle extends React.Component {
   render() {
     return (
       <div>
-        <input onChange={this.valueA} />
+        <input onChange={this.changeRadius} />
         <br /> Radius = {this.state.radius} <br />
         Circle area = {Math.PI * this.state.radius * this.state.radius} <br />
         Circle Perimeter = {2 * Math.PI * this.state.radius}
