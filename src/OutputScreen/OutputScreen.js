@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 function OutputScreen() {
   return (
     <div>
-      <input type="text" readOnly />
+      <input className="screen-row" type="text" readOnly />
     </div>
   );
 }

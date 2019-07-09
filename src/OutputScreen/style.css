@@ -1,0 +1,8 @@
+.screen-row {
+  width: 400px;
+  text-align: right;
+  background: #ddd;
+  border: 0px;
+  padding: 10px;
+  color: #222;
+}
