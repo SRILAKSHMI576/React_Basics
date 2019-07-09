@@ -11,7 +11,7 @@ function Service(props) {
       />
       <p className="paragraph">
         {props.description}
-        <button>READ MORE</button>
+        <button className="lu">READ MORE</button>
       </p>
     </div>
   );
