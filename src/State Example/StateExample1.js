@@ -10,7 +10,14 @@ class StateExample1 extends React.Component {
   };
 
   swtichName = () => {
-    console.log("change name");
+    // console.log("change name");
+    this.setState({
+      person: [
+        { name: "sri", age: 21 },
+        { name: "laxmi", age: 23 },
+        { name: "srinivas", age: 25 }
+      ]
+    });
   };
   render() {
     return (
