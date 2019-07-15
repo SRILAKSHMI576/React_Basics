@@ -8,9 +8,14 @@ class StateExample1 extends React.Component {
       { name: "srinu", age: 23 }
     ]
   };
+
+  swtichName = () => {
+    console.log("change name");
+  };
   render() {
     return (
       <div>
+        <button onClick={this.swtichName}>switch Name</button>
         Name={this.state.person[0].name} Age={this.state.person[0].age} <br />
         Name={this.state.person[1].name} Age={this.state.person[1].age}
         <br />
