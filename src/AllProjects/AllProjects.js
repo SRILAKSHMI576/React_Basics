@@ -27,8 +27,9 @@ import StateSquare from "../StateEample/StateSquare";
 import Circle from "../StateEample/Circle";
 import Farenheit from "../StateEample/Farenheit";
 import ButtonCount from "../StateEample/ButtonCount";
-import GeekCalculator from "../GeekCalculator/GeekCalculator";
+// import GeekCalculator from "../GeekCalculator/GeekCalculator";
 import LogoutLogin from "../LogoutLogin/LogoutLogin";
+import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
 
 function AllProjects() {
   return (
@@ -62,8 +63,9 @@ function AllProjects() {
           <Route path="/circle" component={Circle} />
           <Route path="/farenheit" component={Farenheit} />
           <Route path="/button-count" component={ButtonCount} />
-          <Route path="/geek-calculator" component={GeekCalculator} />
+          {/* <Route path="/geek-calculator" component={GeekCalculator} /> */}
           <Route path="/logout-login" component={LogoutLogin} />
+          <Route path="/even-odd" component={EvenOrOdd} />
         </div>
       </Router>
     </div>
