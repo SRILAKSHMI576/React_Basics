@@ -30,6 +30,8 @@ import ButtonCount from "../StateEample/ButtonCount";
 // import GeekCalculator from "../GeekCalculator/GeekCalculator";
 import LogoutLogin from "../LogoutLogin/LogoutLogin";
 import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
+import StateExample1 from "../State Example/StateExample1";
+import LessThanEqualToZero from "../JavaScript/NumLessThanEqualToZero";
 
 function AllProjects() {
   return (
@@ -66,6 +68,11 @@ function AllProjects() {
           {/* <Route path="/geek-calculator" component={GeekCalculator} /> */}
           <Route path="/logout-login" component={LogoutLogin} />
           <Route path="/even-odd" component={EvenOrOdd} />
+          <Route path="/state-exmpale1" component={StateExample1} />
+          <Route
+            path="/less-than-equal-to-zero"
+            component={LessThanEqualToZero}
+          />
         </div>
       </Router>
     </div>
