@@ -34,6 +34,7 @@ import StateExample1 from "../State Example/StateExample1";
 import StateExample2 from "../StateExample2/StateExample2";
 import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZero";
 import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
+import CompareStringsBySumOfCharacters from "../JavaScript/ConditionsInJs/CompareStrings";
 
 function AllProjects() {
   return (
@@ -77,6 +78,10 @@ function AllProjects() {
           />
           <Route path="/state-example2" component={StateExample2} />
           <Route path="/multiple-of-100" component={MultipleOf100} />
+          <Route
+            path="/compare-strings"
+            component={CompareStringsBySumOfCharacters}
+          />
         </div>
       </Router>
     </div>
