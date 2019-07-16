@@ -33,6 +33,7 @@ import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
 import StateExample1 from "../State Example/StateExample1";
 import StateExample2 from "../StateExample2/StateExample2";
 import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZero";
+import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
 
 function AllProjects() {
   return (
@@ -75,6 +76,7 @@ function AllProjects() {
             component={LessThanEqualToZero}
           />
           <Route path="/state-example2" component={StateExample2} />
+          <Route path="/multiple-of-100" component={MultipleOf100} />
         </div>
       </Router>
     </div>
