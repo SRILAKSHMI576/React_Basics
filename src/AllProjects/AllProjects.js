@@ -31,8 +31,8 @@ import ButtonCount from "../StateEample/ButtonCount";
 import LogoutLogin from "../LogoutLogin/LogoutLogin";
 import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
 import StateExample1 from "../State Example/StateExample1";
-import LessThanEqualToZero from "../JavaScript/NumLessThanEqualToZero";
 import StateExample2 from "../StateExample2/StateExample2";
+import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZero";
 
 function AllProjects() {
   return (

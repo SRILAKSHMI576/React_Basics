@@ -1,5 +1,5 @@
 import React from "react";
-import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
+import EvenOrOdd from "../../EvenOrOdd/EvenOrOdd";
 
 class LessThanEqualToZero extends React.Component {
   state = {
