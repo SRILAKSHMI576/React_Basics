@@ -2,16 +2,16 @@ import React from "react";
 
 class MultipleOf100 extends React.Component {
   state = {
-    a: 100
+    num: 100
   };
-  changeA = e => {
+  changeNum = e => {
     this.setState({
-      a: e.target.value
+      num: e.target.value
     });
   };
 
   divisibleBy100 = () => {
-    if (this.state.a % 100 == 0) {
+    if (this.state.num % 100 == 0) {
       return "true";
     } else {
       return "false";
@@ -20,8 +20,8 @@ class MultipleOf100 extends React.Component {
   render() {
     return (
       <div>
-        <input onChange={this.changeA} />
-        {this.state.a} is
+        <input onChange={this.changeNum} />
+        {this.state.num} is
         {this.divisibleBy100()}
       </div>
     );
