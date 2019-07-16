@@ -36,6 +36,7 @@ import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
 import CompareStringsBySumOfCharacters from "../JavaScript/ConditionsInJs/CompareStrings";
 import EvenOdd from "../JavaScript/ConditionsInJs/EvenOdd";
 import TruthyOrFalsy from "../JavaScript/ConditionsInJs/TruthyOrFalsy";
+import HurdleJump from "../JavaScript/ConditionsInJs/HurdleJump";
 
 function AllProjects() {
   return (
@@ -84,6 +85,7 @@ function AllProjects() {
           />
           <Route path="/even-odd" component={EvenOdd} />
           <Route path="/truthy-falsy" component={TruthyOrFalsy} />
+          <Route path="/hurdle-jump" component={HurdleJump} />
         </div>
       </Router>
     </div>
