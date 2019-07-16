@@ -1,5 +1,4 @@
 import React from "react";
-import { thisExpression } from "@babel/types";
 
 class HurdleJump extends React.Component {
   state = {
