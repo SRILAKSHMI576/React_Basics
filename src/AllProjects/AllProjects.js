@@ -32,6 +32,7 @@ import LogoutLogin from "../LogoutLogin/LogoutLogin";
 import EvenOrOdd from "../EvenOrOdd/EvenOrOdd";
 import StateExample1 from "../State Example/StateExample1";
 import LessThanEqualToZero from "../JavaScript/NumLessThanEqualToZero";
+import StateExample2 from "../StateExample2/StateExample2";
 
 function AllProjects() {
   return (
@@ -73,6 +74,7 @@ function AllProjects() {
             path="/less-than-equal-to-zero"
             component={LessThanEqualToZero}
           />
+          <Route path="/state-example2" component={StateExample2} />
         </div>
       </Router>
     </div>

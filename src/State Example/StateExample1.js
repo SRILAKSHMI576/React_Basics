@@ -20,9 +20,18 @@ class StateExample1 extends React.Component {
     });
   };
   render() {
+    const style = {
+      backgroundColor: "white",
+      border: "1px solid blue",
+      font: "inherient",
+      padding: "8px",
+      cursor: "pointer"
+    };
     return (
       <div>
-        <button onClick={this.swtichName}>switch Name</button>
+        <button style={style} onClick={this.swtichName}>
+          switch Name
+        </button>
         Name={this.state.person[0].name} Age={this.state.person[0].age} <br />
         Name={this.state.person[1].name} Age={this.state.person[1].age}
         <br />
