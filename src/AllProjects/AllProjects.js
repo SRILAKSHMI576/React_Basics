@@ -34,6 +34,7 @@ import StateExample2 from "../StateExample2/StateExample2";
 import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZero";
 import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
 import CompareStringsBySumOfCharacters from "../JavaScript/ConditionsInJs/CompareStrings";
+import EvenOdd from "../JavaScript/ConditionsInJs/EvenOdd";
 
 function AllProjects() {
   return (
@@ -80,6 +81,7 @@ function AllProjects() {
             path="/compare-strings"
             component={CompareStringsBySumOfCharacters}
           />
+          <Route path="/even-odd" component={EvenOdd} />
         </div>
       </Router>
     </div>
