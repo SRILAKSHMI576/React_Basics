@@ -35,6 +35,7 @@ import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZer
 import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
 import CompareStringsBySumOfCharacters from "../JavaScript/ConditionsInJs/CompareStrings";
 import EvenOdd from "../JavaScript/ConditionsInJs/EvenOdd";
+import TruthyOrFalsy from "../JavaScript/ConditionsInJs/TruthyOrFalsy";
 
 function AllProjects() {
   return (
@@ -82,6 +83,7 @@ function AllProjects() {
             component={CompareStringsBySumOfCharacters}
           />
           <Route path="/even-odd" component={EvenOdd} />
+          <Route path="/truthy-falsy" component={TruthyOrFalsy} />
         </div>
       </Router>
     </div>
