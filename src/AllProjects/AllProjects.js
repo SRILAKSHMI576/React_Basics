@@ -45,6 +45,7 @@ import LittleDictonary from "../JavaScript/ConditionsInJs/LittleDictonary";
 import FlipTheBoolean from "../JavaScript/ConditionsInJs/FlipTheBoolean";
 import FourLetterStrings from "../JavaScript/ConditionsInJs/FourLetterStrings";
 import HelloBye from "../JavaScript/ConditionsInJs/HelloBye";
+import Factorial from "../JavaScript/ConditionsInJs/Factorial";
 
 function AllProjects() {
   return (
@@ -102,6 +103,7 @@ function AllProjects() {
           <Route path="/boolean" component={FlipTheBoolean} />
           <Route path="/four-letter-string" component={FourLetterStrings} />
           <Route path="/hello-bye" component={HelloBye} />
+          <Route path="/factorial" component={Factorial} />
         </div>
       </Router>
     </div>
