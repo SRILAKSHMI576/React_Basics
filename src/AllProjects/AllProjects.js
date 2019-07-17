@@ -40,6 +40,7 @@ import HurdleJump from "../JavaScript/ConditionsInJs/HurdleJump";
 import MonthName from "../JavaScript/ConditionsInJs/MonthName";
 import StringFilter from "../JavaScript/ConditionsInJs/StringFilter";
 import HotPics from "../JavaScript/ConditionsInJs/HotPics";
+import EvenNumberGenerator from "../JavaScript/ConditionsInJs/EvenNumberGenerator";
 
 function AllProjects() {
   return (
@@ -92,6 +93,7 @@ function AllProjects() {
           <Route path="/month-name" component={MonthName} />
           <Route path="/string-filter" component={StringFilter} />
           <Route path="/hot-pics" component={HotPics} />
+          <Route path="/even-num" component={EvenNumberGenerator} />
         </div>
       </Router>
     </div>
