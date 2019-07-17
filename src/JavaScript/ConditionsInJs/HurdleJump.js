@@ -17,7 +17,7 @@ class HurdleJump extends React.Component {
   };
 
   hurdleJump = () => {
-    var high = Math.max(...this.state.hurdles);
+    let high = Math.max(...this.state.hurdles);
     if (high > this.state.jumpHeight) {
       return "false";
     } else {
