@@ -2,7 +2,7 @@ import React from "react";
 
 class FlipTheBoolean extends React.Component {
   state = {
-    boo: 0
+    boo: "true"
   };
   changeBoo = e => {
     this.setState({
@@ -12,8 +12,7 @@ class FlipTheBoolean extends React.Component {
   flipBoolean = () => {
     if (this.boo === "true") {
       return "false";
-    }
-    if (this.boo === "false") {
+    } else if (this.boo === "false") {
       return "true";
     } else {
       return "boolean expected";
