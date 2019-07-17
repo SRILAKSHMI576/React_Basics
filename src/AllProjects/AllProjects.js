@@ -48,6 +48,8 @@ import HelloBye from "../JavaScript/ConditionsInJs/HelloBye";
 import Factorial from "../JavaScript/ConditionsInJs/Factorial";
 import Pallindrome from "../JavaScript/ConditionsInJs/pallindrome";
 import AvgOfWholeNum from "../JavaScript/ConditionsInJs/AvgOfWholeNum";
+import XsAndOs from "../JavaScript/ConditionsInJs/XsAndOs";
+import Eqality from "../JavaScript/ConditionsInJs/Eqality";
 
 function AllProjects() {
   return (
@@ -108,6 +110,8 @@ function AllProjects() {
           <Route path="/factorial" component={Factorial} />
           <Route path="/pallindrome" component={Pallindrome} />
           <Route path="/avg" component={AvgOfWholeNum} />
+          <Route path="/xs-os" component={XsAndOs} />
+          <Route path="/equal" component={Eqality} />
         </div>
       </Router>
     </div>
