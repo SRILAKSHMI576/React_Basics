@@ -42,6 +42,7 @@ import StringFilter from "../JavaScript/ConditionsInJs/StringFilter";
 import HotPics from "../JavaScript/ConditionsInJs/HotPics";
 import EvenNumberGenerator from "../JavaScript/ConditionsInJs/EvenNumberGenerator";
 import LittleDictonary from "../JavaScript/ConditionsInJs/LittleDictonary";
+import FlipTheBoolean from "../JavaScript/ConditionsInJs/FlipTheBoolean";
 
 function AllProjects() {
   return (
@@ -96,6 +97,7 @@ function AllProjects() {
           <Route path="/hot-pics" component={HotPics} />
           <Route path="/even-num" component={EvenNumberGenerator} />
           <Route path="/little-dictionary" component={LittleDictonary} />
+          <Route path="/boolean" component={FlipTheBoolean} />
         </div>
       </Router>
     </div>
