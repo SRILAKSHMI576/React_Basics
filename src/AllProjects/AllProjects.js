@@ -41,6 +41,7 @@ import MonthName from "../JavaScript/ConditionsInJs/MonthName";
 import StringFilter from "../JavaScript/ConditionsInJs/StringFilter";
 import HotPics from "../JavaScript/ConditionsInJs/HotPics";
 import EvenNumberGenerator from "../JavaScript/ConditionsInJs/EvenNumberGenerator";
+import LittleDictonary from "../JavaScript/ConditionsInJs/LittleDictonary";
 
 function AllProjects() {
   return (
@@ -94,6 +95,7 @@ function AllProjects() {
           <Route path="/string-filter" component={StringFilter} />
           <Route path="/hot-pics" component={HotPics} />
           <Route path="/even-num" component={EvenNumberGenerator} />
+          <Route path="/little-dictionary" component={LittleDictonary} />
         </div>
       </Router>
     </div>
