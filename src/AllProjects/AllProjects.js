@@ -47,6 +47,7 @@ import FourLetterStrings from "../JavaScript/ConditionsInJs/FourLetterStrings";
 import HelloBye from "../JavaScript/ConditionsInJs/HelloBye";
 import Factorial from "../JavaScript/ConditionsInJs/Factorial";
 import Pallindrome from "../JavaScript/ConditionsInJs/pallindrome";
+import AvgOfWholeNum from "../JavaScript/ConditionsInJs/AvgOfWholeNum";
 
 function AllProjects() {
   return (
@@ -106,6 +107,7 @@ function AllProjects() {
           <Route path="/hello-bye" component={HelloBye} />
           <Route path="/factorial" component={Factorial} />
           <Route path="/pallindrome" component={Pallindrome} />
+          <Route path="/avg" component={AvgOfWholeNum} />
         </div>
       </Router>
     </div>
