@@ -12,13 +12,13 @@ class Pallindrome extends React.Component {
   };
   pallindromeNumber = () => {
     var reversed = parseInt(
-      this.num
+      this.state.num
         .toString()
         .split("")
         .reverse()
         .join("")
     );
-    if (this.num == reversed) {
+    if (this.state.num == reversed) {
       return "true";
     } else {
       return "false";

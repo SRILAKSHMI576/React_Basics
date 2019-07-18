@@ -12,11 +12,11 @@ class HotPics extends React.Component {
 
   hotPicsOfDenito = () => {
     if (
-      this.string.includes("anime") ||
-      this.string.includes("meme") ||
-      this.string.includes("vine") ||
-      this.string.includes("roasts") ||
-      this.string.includes("Danny Devito")
+      this.state.string.includes("anime") ||
+      this.state.string.includes("meme") ||
+      this.state.string.includes("vine") ||
+      this.state.string.includes("roasts") ||
+      this.state.string.includes("Danny Devito")
     ) {
       return "NO!";
     } else {

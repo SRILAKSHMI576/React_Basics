@@ -16,8 +16,9 @@ class HelloBye extends React.Component {
     });
   };
   sayHelloSayBye = () => {
-    var upperCase = this.name.charAt(0).toUpperCase() + this.name.slice(1);
-    if (this.num == 1) {
+    var upperCase =
+      this.state.name.charAt(0).toUpperCase() + this.state.name.slice(1);
+    if (this.state.num == 1) {
       return "Hello " + upperCase;
     } else {
       return "Bye " + upperCase;

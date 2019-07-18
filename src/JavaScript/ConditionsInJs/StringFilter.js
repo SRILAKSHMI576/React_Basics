@@ -11,7 +11,7 @@ class StringFilter extends React.Component {
   };
 
   outStringsFromList = () => {
-    return this.arr.filter(arr => typeof arr === "number");
+    return this.state.arr.filter(arr => typeof arr === "number");
   };
   render() {
     return (

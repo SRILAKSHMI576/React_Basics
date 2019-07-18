@@ -11,7 +11,8 @@ class XsAndOs extends React.Component {
   };
   xsAndOs = () => {
     return (
-      this.str.toLowerCase().split("x").length == this.str.split("o").length
+      this.state.str.toLowerCase().split("x").length ==
+      this.state.str.split("o").length
     );
   };
   render() {
