@@ -24,7 +24,7 @@ class EvenNumberGenerator extends React.Component {
         <input onChange={this.changeNum} />
         {this.state.num}
         <br />
-        {this.evenNumber()}
+        even numbers: {this.evenNumber()}
       </div>
     );
   }

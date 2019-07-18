@@ -16,7 +16,7 @@ class LittleDictonary extends React.Component {
     });
   };
   littleDictionary = () => {
-    return this.words.filter(x => x.startsWith(this.initial));
+    return this.state.words.filter(x => x.startsWith(this.state.initial));
   };
 
   render() {

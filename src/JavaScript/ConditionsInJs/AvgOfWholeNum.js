@@ -10,7 +10,9 @@ class AvgOfWholeNum extends React.Component {
     });
   };
   averageOfWholeNumber = () => {
-    return Number.isInteger(this.a.reduce((x, y) => x + y) / this.a.length);
+    return Number.isInteger(
+      this.state.a.reduce((x, y) => x + y) / this.state.a.length
+    );
   };
   render() {
     return (

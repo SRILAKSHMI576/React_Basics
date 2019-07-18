@@ -10,9 +10,9 @@ class FlipTheBoolean extends React.Component {
     });
   };
   flipBoolean = () => {
-    if (this.boo === "true") {
+    if (this.state.boo === "true") {
       return "false";
-    } else if (this.boo === "false") {
+    } else if (this.state.boo === "false") {
       return "true";
     } else {
       return "boolean expected";
