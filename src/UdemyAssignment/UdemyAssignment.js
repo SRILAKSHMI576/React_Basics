@@ -7,6 +7,9 @@ function UdemyAssignment() {
     <div>
       <UserInput />
       <UserOutput />
+      <UserOutput />
+      <UserOutput />
+      <UserOutput />
     </div>
   );
 }
