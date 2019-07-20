@@ -1,6 +1,10 @@
 import React from "react";
 
 function UserInput() {
-  return <div>hi</div>;
+  return (
+    <div>
+      <input />
+    </div>
+  );
 }
 export default UserInput;
