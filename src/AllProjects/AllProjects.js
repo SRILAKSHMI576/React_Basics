@@ -50,7 +50,7 @@ import Pallindrome from "../JavaScript/ConditionsInJs/pallindrome";
 import AvgOfWholeNum from "../JavaScript/ConditionsInJs/AvgOfWholeNum";
 import XsAndOs from "../JavaScript/ConditionsInJs/XsAndOs";
 import Eqality from "../JavaScript/ConditionsInJs/Eqality";
-import UdemyAssignment from "../UdemyAssignment/UdemyAssignment";
+import UdemyAssignment from "../udemyAssignment/udemyAssignment";
 
 function AllProjects() {
   return (
@@ -113,7 +113,7 @@ function AllProjects() {
           <Route path="/avg" component={AvgOfWholeNum} />
           <Route path="/xs-os" component={XsAndOs} />
           <Route path="/equal" component={Eqality} />
-          <Route path="udemy-assignment" component={UdemyAssignment} />
+          <Route path="/udemy-assignment" component={UdemyAssignment} />
         </div>
       </Router>
     </div>
