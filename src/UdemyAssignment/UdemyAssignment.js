@@ -6,10 +6,10 @@ function UdemyAssignment() {
   return (
     <div>
       <UserInput />
-      <UserOutput />
-      <UserOutput />
-      <UserOutput />
-      <UserOutput />
+      <UserOutput username="srilakshmi" />
+      <UserOutput username="srinivas" />
+      <UserOutput username="bujji" />
+      <UserOutput username="sri" />
     </div>
   );
 }
