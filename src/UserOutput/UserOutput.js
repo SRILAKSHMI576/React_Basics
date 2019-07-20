@@ -4,13 +4,13 @@ function UserOutput(props) {
   return (
     <div>
       <p>
-        {props.username}This paragraph contains a lot of lines in the source
-        code, but the browser ignores it.
+        {props.personName} This paragraph contains a lot of lines in the source
+        code.
       </p>
 
       <p>
         {props.userName}This paragraph contains a lot of spaces in the source
-        code, but the browser ignores it.
+        code.
       </p>
     </div>
   );

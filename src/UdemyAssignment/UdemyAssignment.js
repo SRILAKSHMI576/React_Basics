@@ -1,26 +1,26 @@
 import React from "react";
 import UserInput from "../UserInput/UserInput";
 import UserOutput from "../UserOutput/UserOutput";
-import { thisExpression } from "@babel/types";
 
 class UdemyAssignment extends React.Component {
   state = {
-    person: [{ user: "john" }]
+    name: "SRINVIAS"
   };
-
-  changeHandler = e => {
+  changeNameHandler = e => {
     this.setState({
-      person: [{ user: e.target.value }]
+      name: e.target.value
     });
   };
   render() {
-    const { person } = this.state;
-    console.log(person);
     return (
       <div>
-        <UserInput userName={person[0].user} changeA={this.changeHandler} />
+        <UserInput
+          personName={this.state.name}
+          changeA={this.changeNameHandler}
+        />
 
-        <UserOutput userName={person[0].user} />
+        <UserOutput userName={this.state.name} />
+        <UserOutput userName="SRI" />
       </div>
     );
   }

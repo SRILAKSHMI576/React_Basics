@@ -30,7 +30,7 @@ import ButtonCount from "../StateEample/ButtonCount";
 // import GeekCalculator from "../GeekCalculator/GeekCalculator";
 import LogoutLogin from "../LogoutLogin/LogoutLogin";
 import StateExample1 from "../State Example/StateExample1";
-import StateExample2 from "../StateExample2/StateExample2";
+import StateExample2 from "../StateHook/StateExample2";
 import LessThanEqualToZero from "../JavaScript/ConditionsInJs/LessThanEqualToZero";
 import MultipleOf100 from "../JavaScript/ConditionsInJs/MultipleOf100";
 import CompareStringsBySumOfCharacters from "../JavaScript/ConditionsInJs/CompareStrings";
