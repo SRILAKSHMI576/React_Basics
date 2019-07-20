@@ -9,7 +9,7 @@ function UserOutput(props) {
       </p>
 
       <p>
-        {props.username}This paragraph contains a lot of spaces in the source
+        {props.userName}This paragraph contains a lot of spaces in the source
         code, but the browser ignores it.
       </p>
     </div>
