@@ -9,6 +9,7 @@ function StateExample2(props) {
     ],
     otherState: "see other value"
   });
+
   const switchName = () => {
     setPersonsState({
       person: [
@@ -21,7 +22,7 @@ function StateExample2(props) {
 
   return (
     <div>
-      <button onClick={switchName}>click on</button>
+      <button onClick={this.togglePersonsHandler}>click on</button>
       Name = {personsState.person[0].name} Age = {personsState.person[0].age}
       <br />
       Name = {personsState.person[1].name} Age = {personsState.person[1].age}
