@@ -4,26 +4,21 @@ import UserOutput from "../UserOutput/UserOutput";
 
 class UdemyAssignment extends React.Component {
   state = {
-    name: "SRINVIAS"
+    username: "SRILAKSHMI"
   };
-  changeNameHandler = e => {
+  changeName = e => {
     this.setState({
-      name: e.target.value
+      username: e.target.value
     });
   };
   render() {
     return (
       <div>
-        <UserInput
-          personName={this.state.name}
-          changeA={this.changeNameHandler}
-        />
-
-        <UserOutput userName={this.state.name} />
-        <UserOutput userName="SRI" />
+        <UserInput username={this.state.username} changeA={this.changeName} />
+        <UserOutput username={this.state.username} />
+        <UserOutput />
       </div>
     );
   }
 }
-
 export default UdemyAssignment;
