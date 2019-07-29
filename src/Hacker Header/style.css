@@ -1,4 +1,4 @@
-.hacker-header {
+.hacker {
   background-color: #ff6600;
   width: 1132px;
   height: 27;
@@ -10,6 +10,14 @@
 .log-in {
   float: right;
 }
-.heacker-news {
+.hacker-1 {
+  font-weight: bold;
+}
+.hacker-header a {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.y {
+  color: white;
   font-weight: bold;
 }
