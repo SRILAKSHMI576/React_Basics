@@ -1,3 +1,30 @@
-.mith:hover {
+.hacker-body {
+  background-color: rgb(246, 246, 239);
+  margin-left: auto;
+  margin-right: auto;
+  width: 1142px;
+  height: 700px;
+  margin-top: -13px;
+}
+.news-paragraph {
+  font-size: 10pt;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-left: 9px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.hacker-links {
+  color: #828282;
+  font-size: 8pt;
+  margin-left: 5px;
+  margin-right: 2px;
+}
+.hacker-links:hover {
   text-decoration: underline;
+}
+.news-para {
+  color: #828282;
+  font-size: 8pt;
+  margin-left: 16px;
+  margin-top: 3px;
 }
