@@ -337,6 +337,18 @@ function HackerBody() {
         </a>
         <hr className="un" />
       </div>
+      <div>
+        <p className="footer-para">
+          Startup School is now on! You can still get in till August 4.
+        </p>
+      </div>
+      <div className="footer-links">
+        <a href="#">Guidelines </a>
+        <a href="#">FAQ </a> |<a href="#">Support </a> |<a href="#">API </a> |
+        <a href="#">Security </a> |<a href="#">Lists </a> |
+        <a href="#"> Bookmarklet</a> |<a href="#">Legal </a> |
+        <a href="#">Apply to YC</a> |<a href="#">Contact</a>
+      </div>
     </div>
   );
 }
