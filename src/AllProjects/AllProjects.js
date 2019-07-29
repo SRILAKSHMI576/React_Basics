@@ -52,6 +52,7 @@ import XsAndOs from "../JavaScript/ConditionsInJs/XsAndOs";
 import Eqality from "../JavaScript/ConditionsInJs/Eqality";
 import UdemyAssignment from "../udemyAssignment/udemyAssignment";
 import Conditions from "../Conditions/Conditions";
+import HackerNews from "../Hacker News/HackerNews";
 
 function AllProjects() {
   return (
@@ -116,6 +117,7 @@ function AllProjects() {
           <Route path="/equal" component={Eqality} />
           <Route path="/udemy-assignment" component={UdemyAssignment} />
           <Route path="/conditions" component={Conditions} />
+          <Route path="/hacker-news" component={HackerNews} />
         </div>
       </Router>
     </div>
