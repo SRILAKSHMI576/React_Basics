@@ -349,6 +349,12 @@ function HackerBody() {
         <a href="#"> Bookmarklet</a> |<a href="#">Legal </a> |
         <a href="#">Apply to YC</a> |<a href="#">Contact</a>
       </div>
+      <div className="footer-search">
+        <p className="search">
+          Search:
+          <input type="text" name="search" />
+        </p>
+      </div>
     </div>
   );
 }

@@ -54,3 +54,9 @@ hr.un {
   margin-left: 5px;
   margin-right: 5px;
 }
+.search {
+  color: gray;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12pt;
+  margin-left: 450px;
+}
