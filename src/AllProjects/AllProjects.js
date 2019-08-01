@@ -53,7 +53,8 @@ import Eqality from "../JavaScript/ConditionsInJs/Eqality";
 import UdemyAssignment from "../udemyAssignment/udemyAssignment";
 import Conditions from "../Conditions/Conditions";
 import HackerNews from "../Hacker News/HackerNews";
-import Practice from "../Practice/Practice";
+import Practice from "../prevState/Practice";
+import HelloWorld from "../PracticeColor/PracticeColor";
 
 function AllProjects() {
   return (
@@ -120,6 +121,7 @@ function AllProjects() {
           <Route path="/conditions" component={Conditions} />
           <Route path="/hacker-news" component={HackerNews} />
           <Route path="/practice" component={Practice} />
+          <Route path="/hello" component={HelloWorld} />
         </div>
       </Router>
     </div>
