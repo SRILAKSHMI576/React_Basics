@@ -59,6 +59,7 @@ import AjaxExample from "../AjaxExample/AjaxExample";
 import StateExample3 from "../StateExample3/StateExample3";
 import PresentTime from "../Date/Date";
 import TodoItem from "../TodoItemEx/TodoItemEx";
+import CountIncreaseButton from "../CountIncreaseButton/CountIncreaseButton";
 
 function AllProjects() {
   return (
@@ -130,6 +131,7 @@ function AllProjects() {
           <Route path="/state-ex3" component={StateExample3} />
           <Route path="/date" component={PresentTime} />
           <Route path="/todo" component={TodoItem} />
+          <Route path="/count" component={CountIncreaseButton} />
         </div>
       </Router>
     </div>
