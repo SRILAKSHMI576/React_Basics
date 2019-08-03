@@ -55,6 +55,7 @@ import Conditions from "../Conditions/Conditions";
 import HackerNews from "../Hacker News/HackerNews";
 import Practice from "../prevState/Practice";
 import HelloWorld from "../PracticeColor/PracticeColor";
+import AjaxExample from "../AjaxExample/AjaxExample";
 
 function AllProjects() {
   return (
@@ -122,6 +123,7 @@ function AllProjects() {
           <Route path="/hacker-news" component={HackerNews} />
           <Route path="/practice" component={Practice} />
           <Route path="/hello" component={HelloWorld} />
+          <Route path="/ajax-example" component={AjaxExample} />
         </div>
       </Router>
     </div>
