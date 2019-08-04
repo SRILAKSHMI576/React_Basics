@@ -8,11 +8,17 @@ class DidMount extends Component {
       isLoadding: true
     };
   }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        isLoadding: false
+      });
+    }, 1500);
+  }
   render() {
     return (
       <div>
-        Hello
-        <DidConditional />
+        {this.state.isLoadding ? <h1>Loading....</h1> : <DidConditional />}
       </div>
     );
   }
