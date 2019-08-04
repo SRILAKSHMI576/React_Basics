@@ -62,6 +62,7 @@ import TodoItem from "../TodoItemEx/TodoItemEx";
 import CountIncreaseButton from "../CountIncreaseButton/CountIncreaseButton";
 import DidMount from "../DidMount/DidMount";
 import UnreadMessages from "../UnreadMessages/UnreadMessages";
+import LogInLogOut from "../LogInLogOut/LogInLogOut";
 
 function AllProjects() {
   return (
@@ -136,6 +137,7 @@ function AllProjects() {
           <Route path="/count" component={CountIncreaseButton} />
           <Route path="/did-mount" component={DidMount} />
           <Route path="/unread-msg" component={UnreadMessages} />
+          <Route path="/login-logout" component={LogInLogOut} />
         </div>
       </Router>
     </div>
