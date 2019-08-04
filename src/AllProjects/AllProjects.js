@@ -55,11 +55,12 @@ import Conditions from "../Conditions/Conditions";
 import HackerNews from "../Hacker News/HackerNews";
 import Practice from "../prevState/Practice";
 import HelloWorld from "../PracticeColor/PracticeColor";
-import AjaxExample from "../AjaxExample/AjaxExample";
+import AjaxExample from "../Alphabet/AjaxExample";
 import StateExample3 from "../StateExample3/StateExample3";
 import PresentTime from "../Date/Date";
 import TodoItem from "../TodoItemEx/TodoItemEx";
 import CountIncreaseButton from "../CountIncreaseButton/CountIncreaseButton";
+import DidMount from "../DidMount/DidMount";
 
 function AllProjects() {
   return (
@@ -127,11 +128,12 @@ function AllProjects() {
           <Route path="/hacker-news" component={HackerNews} />
           <Route path="/practice" component={Practice} />
           <Route path="/hello" component={HelloWorld} />
-          <Route path="/ajax-example" component={AjaxExample} />
+          <Route path="/alphabets" component={AjaxExample} />
           <Route path="/state-ex3" component={StateExample3} />
           <Route path="/date" component={PresentTime} />
           <Route path="/todo" component={TodoItem} />
           <Route path="/count" component={CountIncreaseButton} />
+          <Route path="/did-mount" component={DidMount} />
         </div>
       </Router>
     </div>
