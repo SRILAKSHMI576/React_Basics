@@ -63,6 +63,7 @@ import CountIncreaseButton from "../CountIncreaseButton/CountIncreaseButton";
 import DidMount from "../DidMount/DidMount";
 import UnreadMessages from "../UnreadMessages/UnreadMessages";
 import LogInLogOut from "../LogInLogOut/LogInLogOut";
+import FetchData from "../FetchData/FetchData";
 
 function AllProjects() {
   return (
@@ -138,6 +139,7 @@ function AllProjects() {
           <Route path="/did-mount" component={DidMount} />
           <Route path="/unread-msg" component={UnreadMessages} />
           <Route path="/login-logout" component={LogInLogOut} />
+          <Route path="/fetch-data" component={FetchData} />
         </div>
       </Router>
     </div>

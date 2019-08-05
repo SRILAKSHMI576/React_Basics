@@ -4,15 +4,17 @@ import HackerBody from "../Hacker Body/HackerBody";
 import axios from "axios";
 
 class HackerNews extends React.Component {
-  state = {
-    posts: []
-  };
+  constructor() {
+    super();
+    this.state = {
+      posts: {}
+    };
+  }
+
   componentDidMount() {
-    axios
-      .get("https://hacker-news.firebaseio.com/v0/topstories.json")
-      .then(response => {
-        this.setState({ posts: response.data });
-      });
+    fetch("https://hacker-news.firebaseio.com/v0/topstories.json")
+      .then(response => response.json())
+      .then(data => console.log(data));
   }
   render() {
     return (
