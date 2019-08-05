@@ -10,10 +10,14 @@ class FetchData extends Component {
   componentDidMount() {
     fetch("https://swapi.co/api/people/1")
       .then(response => response.json())
-      .then(data => console.log(data));
+      .then(data => {
+        this.setState({
+          items: data
+        });
+      });
   }
   render() {
-    return <div>hello</div>;
+    return <div>{this.state.items.vehicles}</div>;
   }
 }
 
