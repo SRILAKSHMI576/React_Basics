@@ -1,13 +1,13 @@
 import React from "react";
 import HackerHeader from "../Hacker Header/HackerHeader";
 import HackerBody from "../Hacker Body/HackerBody";
-import axios from "axios";
 
 class HackerNews extends React.Component {
   constructor() {
     super();
     this.state = {
-      posts: {}
+      posts: {},
+      header: {}
     };
   }
 
