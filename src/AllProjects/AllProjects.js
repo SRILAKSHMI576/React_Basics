@@ -64,6 +64,7 @@ import DidMount from "../DidMount/DidMount";
 import UnreadMessages from "../UnreadMessages/UnreadMessages";
 import LogInLogOut from "../LogInLogOut/LogInLogOut";
 import FetchData from "../FetchData/FetchData";
+import Forms from "../Forms/Forms";
 
 function AllProjects() {
   return (
@@ -140,6 +141,7 @@ function AllProjects() {
           <Route path="/unread-msg" component={UnreadMessages} />
           <Route path="/login-logout" component={LogInLogOut} />
           <Route path="/fetch-data" component={FetchData} />
+          <Route path="/forms" component={Forms} />
         </div>
       </Router>
     </div>
