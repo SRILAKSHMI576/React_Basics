@@ -5,7 +5,8 @@ class Forms extends Component {
     super();
     this.state = {
       firstname: " ",
-      lastname: " "
+      lastname: " ",
+      isFriendly: true
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -30,6 +31,9 @@ class Forms extends Component {
           placeholder="last Name"
           onChange={this.handleChange}
         />
+        <br />
+        <textarea value={"some default value"} />
+        <input type="checkbox" checked={this.state.isFriendly} />
         <h1>
           {this.state.firstname}
           {this.state.lastname}
