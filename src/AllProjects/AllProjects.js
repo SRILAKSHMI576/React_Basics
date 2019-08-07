@@ -66,6 +66,7 @@ import LogInLogOut from "../LogInLogOut/LogInLogOut";
 import FetchData from "../FetchData/FetchData";
 import Forms from "../Forms/Forms";
 import NameForm from "../NameForm/NameForm";
+import SelectForm from "../SelectForm/SelectForm";
 
 function AllProjects() {
   return (
@@ -144,6 +145,7 @@ function AllProjects() {
           <Route path="/fetch-data" component={FetchData} />
           <Route path="/forms" component={Forms} />
           <Route path="/name-form" component={NameForm} />
+          <Route path="/select-form" component={SelectForm} />
         </div>
       </Router>
     </div>
