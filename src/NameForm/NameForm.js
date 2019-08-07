@@ -11,7 +11,7 @@ class NameForm extends Component {
   }
   changeName(event) {
     this.setState({
-      name: event.target.value
+      name: event.target.value.toUpperCase()
     });
   }
   changeSubmit(event) {
