@@ -65,6 +65,7 @@ import UnreadMessages from "../UnreadMessages/UnreadMessages";
 import LogInLogOut from "../LogInLogOut/LogInLogOut";
 import FetchData from "../FetchData/FetchData";
 import Forms from "../Forms/Forms";
+import NameForm from "../NameForm/NameForm";
 
 function AllProjects() {
   return (
@@ -142,6 +143,7 @@ function AllProjects() {
           <Route path="/login-logout" component={LogInLogOut} />
           <Route path="/fetch-data" component={FetchData} />
           <Route path="/forms" component={Forms} />
+          <Route path="/name-form" component={NameForm} />
         </div>
       </Router>
     </div>
