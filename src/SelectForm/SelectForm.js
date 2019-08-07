@@ -31,6 +31,7 @@ class SelectForm extends Component {
         <br />
         <br />
         <input type="file" />
+        <input type="number" />
       </form>
     );
   }
