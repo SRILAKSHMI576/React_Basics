@@ -28,6 +28,8 @@ class SelectForm extends Component {
           <option value="mango">Mango</option>
         </select>
         <input type="submit" value="Submit" />
+        <br />
+        <br />
         <input type="file" />
       </form>
     );
