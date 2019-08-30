@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import { tsPropertySignature } from "@babel/types";
 
 function Advertisement3(props) {
   return (
