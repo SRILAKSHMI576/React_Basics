@@ -11,7 +11,7 @@ class EvenOdd extends React.Component {
   };
 
   evenOrOdd = () => {
-    if (this.state.a % 2 == 0) {
+    if (this.state.a % 2 === 0) {
       return "even";
     } else {
       return "odd";

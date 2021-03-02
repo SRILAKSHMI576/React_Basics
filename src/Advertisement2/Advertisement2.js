@@ -11,6 +11,7 @@ function Advertisement2() {
             <img
               className="photo1"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVpN9bReEtj8ilIuE3awJC8TDgWkhAvGM08RGvNoraDNrrLKu"
+              alt="image1"
             />
           </a>
         </div>

@@ -13,6 +13,7 @@ function Advertisement1(props) {
             <img
               className="picture1"
               src="https://www.apkaabazar.com/wp-content/uploads/2019/04/amazon-pay.jpg"
+              alt="image2"
             />
             <p className="recharge">{props.para2}</p>
           </a>

@@ -10,7 +10,7 @@ class Factorial extends React.Component {
     });
   };
   factorialNum = () => {
-    if (this.state.num == 0) {
+    if (this.state.num === 0) {
       return 1;
     } else {
       return this.state.num * (this.state.num - 1);

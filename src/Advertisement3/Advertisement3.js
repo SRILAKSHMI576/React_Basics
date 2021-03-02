@@ -8,7 +8,7 @@ function Advertisement3(props) {
       <div className="photos1">
         <div>
           <a href="https://www.amazon.in/">
-            <img className="caps" src={props.link} />
+            <img className="caps" src={props.link} alt="image1" />
           </a>
         </div>
       </div>

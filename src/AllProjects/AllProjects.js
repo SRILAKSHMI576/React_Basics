@@ -15,7 +15,7 @@ import Checkout from "../Checkout/Checkout";
 import Excerises from "../JavaScript/Excerises/Excerises";
 import Operator from "../Operator/Operator";
 import AboutState from "../AboutState/AboutState";
-import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
+// import UdemyHomePage from "../UdemyHomePage/UdemyHomePage";
 import StateEx from "../StateEx/StateEx";
 import Square from "../StateEample/Square";
 import Cube from "../StateEample/Cube";
@@ -50,7 +50,7 @@ import Pallindrome from "../JavaScript/ConditionsInJs/pallindrome";
 import AvgOfWholeNum from "../JavaScript/ConditionsInJs/AvgOfWholeNum";
 import XsAndOs from "../JavaScript/ConditionsInJs/XsAndOs";
 import Eqality from "../JavaScript/ConditionsInJs/Eqality";
-import UdemyAssignment from "../udemyAssignment/udemyAssignment";
+// import UdemyAssignment from "../udemyAssignment/udemyAssignment";
 import Conditions from "../Conditions/Conditions";
 import HackerNews from "../Hacker News/HackerNews";
 import Practice from "../prevState/Practice";
@@ -88,7 +88,7 @@ function AllProjects() {
           <Route path="/excerises" component={Excerises} />
           <Route path="/operator" component={Operator} />
           <Route path="/about-state" component={AboutState} />
-          <Route path="/udemy" component={UdemyHomePage} />
+          {/* <Route path="/udemy" component={UdemyHomePage} /> */}
           <Route path="/state-ex" component={StateEx} />
           <Route path="/square" component={Square} />
           <Route path="/cube" component={Cube} />
@@ -129,7 +129,7 @@ function AllProjects() {
           <Route path="/avg" component={AvgOfWholeNum} />
           <Route path="/xs-os" component={XsAndOs} />
           <Route path="/equal" component={Eqality} />
-          <Route path="/udemy-assignment" component={UdemyAssignment} />
+          {/* <Route path="/udemy-assignment" component={UdemyAssignment} /> */}
           <Route path="/conditions" component={Conditions} />
           <Route path="/hacker-news" component={HackerNews} />
           <Route path="/practice" component={Practice} />

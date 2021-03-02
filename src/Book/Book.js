@@ -12,6 +12,7 @@ function Book() {
       <img
         className="image"
         src="https://timedotcom.files.wordpress.com/2015/06/521811839-copy.jpg"
+        alt="book"
       />
     </div>
   );

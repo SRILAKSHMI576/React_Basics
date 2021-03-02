@@ -10,7 +10,7 @@ class FourLetterStrings extends React.Component {
     });
   };
   fourLetterString = () => {
-    return this.state.str.filter(word => word.length == 4);
+    return this.state.str.filter(word => word.length === 4);
   };
   render() {
     return (

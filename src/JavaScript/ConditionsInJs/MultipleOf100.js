@@ -11,7 +11,7 @@ class MultipleOf100 extends React.Component {
   };
 
   divisibleBy100 = () => {
-    if (this.state.num % 100 == 0) {
+    if (this.state.num % 100 === 0) {
       return "true";
     } else {
       return "false";

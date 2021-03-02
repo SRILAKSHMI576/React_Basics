@@ -11,7 +11,7 @@ class TruthyOrFalsy extends React.Component {
   };
 
   trutyOrFalsy = () => {
-    if (this.state.a == Boolean) {
+    if (this.state.a === Boolean) {
       return 1;
     } else {
       return 0;
